@@ -1,0 +1,1065 @@
+<head>
+<meta name="facebook-domain-verification" content="vmdt9kwjpju3ioen79br9a7pq38lh0" />
+
+<!-- Event snippet for viewpage-colittiadv conversion page -->
+<!--<script>
+  gtag('event', 'conversion', {'send_to': 'AW-10945153274/5SaCCOfbh88DEPqRh-Mo'});
+</script>
+
+
+<!-- Global site tag (gtag.js) - Google Analytics UA -->
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=UA-234207250-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-234207250-1');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics GA4 -->
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBGQPCK8DX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ZBGQPCK8DX');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Ads -->
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=AW-10945153274"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-10945153274');
+</script>
+
+    <!-- Event snippet for Contato Whatsapp conversion page In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+
+<!--    <script>
+
+    function gtag_report_conversion(url) {
+
+        var callback = function() {
+
+            if (typeof(url) != 'undefined') {
+
+                window.location = url;
+
+            }
+
+        };
+
+        gtag('event', 'conversion', {
+
+            'send_to': 'AW-419158153/LhgvCPyJkJ0CEImx78cB',
+
+            'event_callback': callback
+
+        });
+
+        return false;
+
+    }
+
+    </script>
+
+    <!-- Meta Pixel Code -->
+
+<!--<script>
+
+  !function(f,b,e,v,n,t,s)
+
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+
+  n.queue=[];t=b.createElement(e);t.async=!0;
+
+  t.src=v;s=b.getElementsByTagName(e)[0];
+
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+
+  'https://connect.facebook.net/en_US/fbevents.js');
+
+  fbq('init', '1114644619263281');
+
+  fbq('track', 'PageView');
+
+</script>
+
+<noscript><img height="1" width="1" style="display:none"
+
+  src="https://www.facebook.com/tr?id=1114644619263281&ev=PageView&noscript=1"
+
+/></noscript>
+
+<!-- End Meta Pixel Code -->
+
+
+
+</head>
+
+
+
+<style type="text/css">
+
+.bt_bb_section[class*="dark_solid"]:before {
+
+    background-color: rgba(0, 0, 0, .4);
+
+}
+
+</style>
+
+
+
+<div id='chat-box'>
+
+    <div id='chat-top'>
+
+        Precisando de ajuda?
+
+        <span id='chat-top-right'>
+
+            <svg id='close-box' xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48">
+
+                <path
+
+                    d="M38 12.83L35.17 10 24 21.17 12.83 10 10 12.83 21.17 24 10 35.17 12.83 38 24 26.83 35.17 38 38 35.17 26.83 24z"
+
+                    fill='#fff' />
+
+            </svg>
+
+        </span>
+
+        <div class='clear'></div>
+
+    </div>
+
+    <div id='chat-msg'>
+
+        <p>Estamos aqui para o que precisar.</p>
+
+        <div id='chat-form'>
+
+            <div class='chat-in'>
+
+                <input type='text' id='whats-in' Placeholder='Envie sua mensagem...' />
+
+            </div>
+
+            <div id='send-btn'>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="38" height="38" viewBox="0 0 48 48">
+
+                    <path d="M4.02 42L46 24 4.02 6 4 20l30 4-30 4z" fill='rgb(18, 140, 126)' />
+
+                </svg>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div id='whats-chat'>
+
+
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1" width="35" height="35" viewBox="0 0 90 90">
+
+        <path
+
+            d="M90 44a44 44 0 0 1-66 38L0 90l8-24A44 44 0 0 1 46 0c24 0 44 20 44 44zM46 7C25 7 9 24 9 44c0 8 2 15 7 21l-5 14 14-4a37 37 0 0 0 58-31C83 24 66 7 46 7zm22 47l-2-1-7-4-3 1-3 4h-3c-1 0-4-1-8-5-3-3-6-6-6-8v-2l2-2 1-1v-2l-4-8c0-2-1-2-2-2h-2l-3 1c-1 1-4 4-4 9s4 11 5 11c0 1 7 12 18 16 11 5 11 3 13 3s7-2 7-5l1-5z"
+
+            fill="#FFF" />
+
+    </svg>
+
+</div>
+
+<style>
+
+body {
+
+    width: 100%
+
+}
+
+
+
+* {
+
+    margin: 0px;
+
+    padding: 0px;
+
+    box-sizing: border-box;
+
+}
+
+
+
+#whats-chat {
+
+    position: fixed;
+
+    right: 3%;
+
+    bottom: 10%;
+
+    height: auto;
+
+    width: auto;
+
+    background: #25D366;
+
+    padding-top: 9px;
+
+    padding-left: 12px;
+
+    padding-right: 12px;
+
+    padding-bottom: 5px;
+
+    border-radius: 50px;
+
+    z-index: 100;
+
+}
+
+
+
+#whats-chat:hover {
+
+    cursor: pointer;
+
+    box-shadow: 2px 2px 15px #ccc;
+
+    bottom: 11%;
+
+}
+
+
+
+#send-btn:hover {
+
+    cursor: pointer;
+
+}
+
+
+
+/*===============================*/
+
+#chat-box {
+
+    position: fixed;
+
+    right: -500px;
+
+    bottom: 18%;
+
+    width: 250px;
+
+    height: 200px;
+
+    transition: all .5s;
+
+    z-index: 100;
+
+}
+
+
+
+#chat-top {
+
+    width: 100%;
+
+    line-height: 2;
+
+    background: rgb(18, 140, 126);
+
+    color: white;
+
+    text-align: center;
+
+    border-radius: 5px 5px 0 0;
+
+    padding: 0 10px;
+
+}
+
+
+
+#chat-msg {
+
+    background: #ece5dd;
+
+    padding: 10px;
+
+    border-radius: 0 0 5px 5px;
+
+    box-shadow: 0 0 25px -10px #999;
+
+}
+
+
+
+#chat-msg p {
+
+    font-size: 14px;
+
+    padding: 5px;
+
+    background: white;
+
+    border-radius: 0 50px 50px 50px;
+
+    margin-bottom: 10px;
+
+}
+
+
+
+#chat-form {
+
+    display: flex;
+
+}
+
+
+
+.chat-in {
+
+    width: 80%;
+
+    background: #ecefdd;
+
+}
+
+
+
+#chat-form input {
+
+    border-radius: 5px 0 5px 5px;
+
+    border: none;
+
+    outline: none;
+
+    font-size: 14px;
+
+    padding: 5px;
+
+    line-height: 2;
+
+}
+
+
+
+#send-btn {
+
+    width: 20%;
+
+    padding: 0 5px;
+
+}
+
+
+
+#chat-top-right {
+
+    float: right;
+
+    padding: 5px 0;
+
+}
+
+
+
+#chat-top-right:hover {
+
+    cursor: pointer
+
+}
+
+
+
+#chat-box:after {
+
+    content: '';
+
+    position: absolute;
+
+    top: 58%;
+
+    left: 90%;
+
+    width: 0;
+
+    height: 0;
+
+    border-top: 25px solid transparent;
+
+    border-bottom: 25px solid transparent;
+
+
+
+    border-right: 25px solid #ece5dd;
+
+}
+
+
+
+.right {
+
+    float: right
+
+}
+
+
+
+.clear {
+
+    clear: both
+
+}
+
+</style>
+
+<script>
+
+document.getElementById('whats-chat').addEventListener("mouseover", showchatbox);
+
+document.getElementById('chat-top-right').addEventListener("click", closechatbox);
+
+document.getElementById('send-btn').addEventListener("click", sendmsg);
+
+document.getElementById('whats-chat').addEventListener("click", sendmsg);
+
+window.addEventListener("load", showchatboxtime);
+
+
+
+function showchatbox() {
+
+    document.getElementById('chat-box').style.right = '8%'
+
+}
+
+
+
+function closechatbox() {
+
+    document.getElementById('chat-box').style.right = '-500px'
+
+
+
+
+
+}
+
+
+
+function showchatboxtime() {
+
+    setTimeout(launchbox, 5000)
+
+}
+
+
+
+function launchbox() {
+
+    document.getElementById('chat-box').style.right = '8%'
+
+
+
+}
+
+
+
+function sendmsg() {
+
+    var msg = document.getElementById('whats-in').value;
+
+    var relmsg = msg.replace(/ /g, "%20");
+
+    if (relmsg == '') relmsg = 'Ol%C3%A1!';
+
+	var link = 'https://api.whatsapp.com/send?phone=+5519999088533&text=' + relmsg;
+
+    window.open(link, '_blank');
+
+	return gtag_report_conversion();
+
+}
+
+</script>
+
+
+
+<div class="btContentWrap btClear">
+
+    <div class="btContentHolder">
+
+        <div class="btContent">
+
+            <div class="bt_bb_wrapper">
+
+                <section id="bt_bb_section5d51cbe4ec839" data-parallax="0.8" data-parallax-offset="0"
+
+                    class="bt_bb_section bt_bb_top_spacing_extra_large bt_bb_bottom_spacing_medium bt_bb_color_scheme_1 bt_bb_layout_boxed_1200 bt_bb_vertical_align_bottom bt_bb_parallax bt_bb_background_image bt_bb_background_overlay_dark_solid"
+
+                    style="background-image: url('upload/home/banner.jpg'); background-position: 50% 0px;background-size: cover">
+
+                    <div class="bt_bb_port">
+
+                        <div class="bt_bb_cell">
+
+                            <div class="bt_bb_cell_inner">
+
+                                <div class="bt_bb_row bt_bb_column_gap_40" data-structure="6-6">
+
+                                    <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal"
+
+                                        data-width="6">
+
+                                        <div class="bt_bb_column_content">
+
+                                            <div class="bt_bb_column_content_inner">
+
+                                                <div
+
+                                                    class="bt_bb_separator bt_bb_top_spacing_large bt_bb_border_style_none">
+
+                                                </div>
+
+                                                <header
+
+                                                    class="bt_bb_headline bt_bb_dash_top bt_bb_size_extralarge bt_bb_superheadline bt_bb_subheadline bt_bb_align_inherit">
+
+                                                    <h1><span class="bt_bb_headline_superheadline">CONSULTORIA
+
+                                                            EMPRESARIAL EM DIREITO</span><span
+
+                                                            class="bt_bb_headline_content"><span><i>Soluções jurídicas
+
+                                                                    para
+
+                                                                    Empresas e pessoas
+
+                                                                    físicas</i></span></span></h1>
+
+                                                    <div class="bt_bb_headline_subheadline">Atuamos de forma preventiva,
+
+                                                        consultiva e contenciosa, de acordo com a necessidade para
+
+                                                        defender de forma eficaz nossos clientes.</div>
+
+                                                </header>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal"
+
+                                        data-width="6">
+
+                                        <div class="bt_bb_column_content">
+
+                                            <div class="bt_bb_column_content_inner"></div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section id="bt_bb_section5d51cbe4ed50a"
+
+                    class="bt_bb_section bt_bb_top_spacing_medium bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
+
+                    <div class="bt_bb_port" style="background-color: #f7f7f7">
+
+                        <div class="bt_bb_cell">
+
+                            <div class="bt_bb_cell_inner">
+
+                                <div class="bt_bb_row" data-structure="6-6">
+
+                                    <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_middle bt_bb_animation_fade_in animate bt_bb_padding_normal"
+
+                                        data-width="6">
+
+                                        <div class="bt_bb_column_content">
+
+                                            <div class="bt_bb_column_content_inner">
+
+                                                <div
+
+                                                    class="bt_bb_separator bt_bb_top_spacing_medium bt_bb_border_style_none">
+
+                                                </div>
+
+                                                <header
+
+                                                    class="bt_bb_headline bt_bb_dash_none bt_bb_size_normal bt_bb_superheadline bt_bb_subheadline bt_bb_align_inherit">
+
+                                                    <h2><span class="bt_bb_headline_content"><span><i>Quem
+
+                                                                    Somos</i></span></span></h2>
+
+                                                    <div class="bt_bb_headline_subheadline">Somos um escritório de
+
+                                                        advocacia que vai além do conhecimento jurídico, com atendimento
+
+                                                        customizado, encontramos soluções de acordo com a necessidade de
+
+                                                        nossos clientes.<br>Para isso, oferecemos uma equipe de
+
+                                                        profissionais gabaritados prontos para trazer soluções de forma
+
+                                                        proativa. Sempre com ética e transparência, buscamos os melhores
+
+                                                        resultados.</div>
+
+                                                    <div
+
+                                                        class="bt_bb_separator bt_bb_top_spacing_medium bt_bb_border_style_none">
+
+                                                    </div>
+
+                                                    <h2><span class="bt_bb_headline_content"><span><i>Leticia
+
+                                                                    Colitti</i></span></span></h2>
+
+                                                    <div class="bt_bb_headline_subheadline">Formada na Faculdade Max
+
+                                                        Planck, pós-graduada em processo e direito do Trabalho no
+
+                                                        Damásio Educacional, Letícia tem especialização em contratos
+
+                                                        internacionais pela PUC Campinas. Consigo, traz um time formado
+
+                                                        por especialistas em diversas áreas do Direito.</div>
+
+                                                </header>
+
+                                                <div
+
+                                                    class="bt_bb_separator bt_bb_top_spacing_medium bt_bb_border_style_none">
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_center bt_bb_vertical_align_bottom bt_bb_animation_fade_in animate bt_bb_padding_normal"
+
+                                        data-width="6">
+
+                                        <div class="bt_bb_column_content">
+
+                                            <div class="bt_bb_column_content_inner">
+
+                                                <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit">
+
+                                                    <span><img src="assets/img/leticia-colitti.jpeg"
+
+                                                            alt="Letícia Colitti"></span>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section id="bt_bb_section5d51cbe4f3416"
+
+                    class="bt_bb_section bt_bb_top_spacing_small bt_bb_bottom_spacing_small bt_bb_color_scheme_1 bt_bb_layout_boxed_1100 bt_bb_vertical_align_top">
+
+                    <div class="bt_bb_port">
+
+                        <div class="bt_bb_cell">
+
+                            <div class="bt_bb_cell_inner">
+
+                                <div class="bt_bb_row" data-structure="6-6">
+
+                                    <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_middle bt_bb_padding_normal"
+
+                                        data-width="6">
+
+                                        <div class="bt_bb_column_content">
+
+                                            <div class="bt_bb_column_content_inner">
+
+                                                <div
+
+                                                    class="bt_bb_separator bt_bb_bottom_spacing_extra_small bt_bb_border_style_none">
+
+                                                </div>
+
+                                                <header
+
+                                                    class="bt_bb_headline bt_bb_dash_none bt_bb_size_small bt_bb_align_inherit">
+
+                                                    <h4><span class="bt_bb_headline_content"><span>Procurando por um
+
+                                                                escritório de advocacia <i>completo</i>?</span></span>
+
+                                                    </h4>
+
+                                                </header>
+
+                                                <div
+
+                                                    class="bt_bb_separator bt_bb_bottom_spacing_extra_small bt_bb_border_style_none">
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_right bt_bb_vertical_align_middle bt_bb_padding_normal"
+
+                                        data-width="6">
+
+                                        <div class="bt_bb_column_content">
+
+                                            <div class="bt_bb_column_content_inner">
+
+                                                <div
+
+                                                    class="bt_bb_separator bt_bb_bottom_spacing_extra_small bt_bb_border_style_none">
+
+                                                </div>
+
+                                                <div
+
+                                                    class="bt_bb_button bt_bb_icon_position_left bt_bb_color_scheme_1 bt_bb_style_outline bt_bb_size_small bt_bb_width_inline bt_bb_shape_inherit bt_bb_align_inherit">
+
+                                                    <a href="contato" target="_self" class="bt_bb_link"><span
+
+                                                            class="bt_bb_button_text">AGENDE SUA VISITA</span></a>
+
+                                                </div>
+
+                                                <div
+
+                                                    class="bt_bb_separator bt_bb_bottom_spacing_extra_small bt_bb_border_style_none">
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section id="bt_bb_section5d51cdb80cc86"
+
+                    class="bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_large bt_bb_layout_boxed_1000 bt_bb_vertical_align_top">
+
+                    <div class="bt_bb_port" style="background-color: #f7f7f7">
+
+                        <div class="bt_bb_cell">
+
+                            <div class="bt_bb_column_content_inner">
+
+                                <header
+
+                                    class="bt_bb_headline bt_bb_color_scheme_3 bt_bb_dash_none bt_bb_size_medium bt_bb_align_inherit">
+
+                                    <h2 style="text-align: center;margin-bottom: 30px"><span
+
+                                            class="bt_bb_headline_content"><span><i>Nossos Serviços</i></span></span>
+
+                                    </h2>
+
+                                </header>
+
+                            </div>
+
+                            <div class="bt_bb_cell_inner">
+
+                                <?
+
+$countServico = 0;
+
+$se = $b->query("select s.t,s.r,s.h1,f.iti from servico s inner join fotos f on s.id=f.idp and f.tipo='servico' where s.s order by s.t");
+
+while($rse=$se->fetchObject()){
+
+	$countServico++;
+
+?>
+
+                                <div class="bt_bb_row bt_bb_column_gap_0<?=$countServico%2==0?' reverse':''?>"
+
+                                    data-structure="6-6">
+
+                                    <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_middle bt_bb_animation_fade_in move_right animate bt_bb_padding_normal servico-desc"
+
+                                        data-width="6">
+
+                                        <div class="bt_bb_column_content">
+
+                                            <div class="bt_bb_column_content_inner">
+
+                                                <div
+
+                                                    class="bt_bb_separator bt_bb_top_spacing_medium bt_bb_border_style_none">
+
+                                                </div>
+
+                                                <header
+
+                                                    class="bt_bb_headline bt_bb_color_scheme_5 bt_bb_dash_none bt_bb_size_medium bt_bb_superheadline bt_bb_subheadline bt_bb_align_inherit">
+
+                                                    <h2>
+
+                                                        <!-- <span class="bt_bb_headline_superheadline">CONSULTORIA EM DIREITO</span> --><span
+
+                                                            class="bt_bb_headline_content"><span><?=$rse->h1?></span></span>
+
+                                                    </h2>
+
+                                                    <!-- <div class="bt_bb_headline_subheadline"><?=$rse->r?></div> -->
+
+                                                </header>
+
+                                                <div
+
+                                                    class="bt_bb_separator bt_bb_top_spacing_small bt_bb_border_style_none">
+
+                                                </div>
+
+                                                <div
+
+                                                    class="bt_bb_button bt_bb_icon_position_right bt_bb_style_clean bt_bb_size_small bt_bb_width_inline bt_bb_shape_square bt_bb_align_inherit">
+
+                                                    <a href="<?=$rse->t?>" target="_self" class="bt_bb_link"
+
+                                                        title="SAIBA MAIS"><span class="bt_bb_button_text">SAIBA
+
+                                                            MAIS</span><span data-ico-fontawesome=""
+
+                                                            class="bt_bb_icon_holder"></span></a>
+
+                                                </div>
+
+                                                <div
+
+                                                    class="bt_bb_separator bt_bb_top_spacing_medium bt_bb_border_style_none">
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                    <div class="bt_bb_column col-md-6 col-sm-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in move_left animate bt_bb_padding_normal"
+
+                                        data-width="6">
+
+                                        <div class="bt_bb_column_content">
+
+                                            <div class="bt_bb_column_content_inner">
+
+                                                <div class="bt_bb_image bt_bb_shape_square bt_bb_align_inherit">
+
+                                                    <span> <a href="<?=$rse->t?>" target="_self"><img src="upload/servicos/thumb/<?=$rse->iti?>"
+
+                                                            alt="<?=$rse->h1?>"></a></span>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <?
+
+}
+
+?>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <section id="bt_bb_section5d51cbe500005" style="background-color: #f7f7f7"
+
+                    class="bt_bb_section bt_bb_bottom_spacing_large bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
+
+                    <div class="bt_bb_port">
+
+                        <div class="bt_bb_cell">
+
+                            <div class="bt_bb_cell_inner">
+
+                                <div class="bt_bb_row" data-structure="12">
+
+                                    <div class="bt_bb_column col-md-12 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_animation_fade_in animate bt_bb_padding_normal"
+
+                                        data-width="12">
+
+                                        <div class="bt_bb_column_content">
+
+                                            <div class="bt_bb_column_content_inner">
+
+                                                <header
+
+                                                    class="bt_bb_headline bt_bb_dash_none bt_bb_size_normal bt_bb_superheadline bt_bb_align_inherit">
+
+                                                    <h2><span
+
+                                                            class="bt_bb_headline_superheadline">PUBLICAÇÕES</span><span
+
+                                                            class="bt_bb_headline_content"><span>Últimas
+
+                                                                Notícias</span></span></h2>
+
+                                                </header>
+
+                                                <div
+
+                                                    class="bt_bb_separator bt_bb_top_spacing_normal bt_bb_border_style_none">
+
+                                                </div>
+
+                                                <div
+
+                                                    class="bt_bb_latest_posts bt_bb_columns_4 bt_bb_gap_normal bt_bb_image_shape_square">
+
+                                                    <?
+
+$sb = $b->query("select * from blog where s order by id desc limit 4");
+
+while($rb=$sb->fetchObject()){
+
+	$principal = $b->query("select * from fotos where idp={$rb->id} and tipo='blog' and principal limit 1")->fetchObject();
+
+?>
+
+                                                    <div class="bt_bb_latest_posts_item">
+
+                                                        <div class="bt_bb_latest_posts_item_image"><a href="<?=$rb->t?>"
+
+                                                                target="_self"><img
+
+                                                                    src="upload/blogs/thumb/<?=$principal->it?>"
+
+                                                                    alt="<?=$principal->alt?$principal->alt:$rb->h1?>"></a>
+
+                                                        </div>
+
+                                                        <div class="bt_bb_latest_posts_item_content">
+
+                                                            <h5 class="bt_bb_latest_posts_item_title"><a
+
+                                                                    href="<?=$rb->t?>" target="_self"><?=$rb->h1?></a>
+
+                                                            </h5>
+
+                                                            <div class="bt_bb_latest_posts_item_excerpt"><?=$rb->r?>
+
+                                                            </div>
+
+                                                        </div>
+
+                                                    </div>
+
+                                                    <?
+
+}
+
+?>
+
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+

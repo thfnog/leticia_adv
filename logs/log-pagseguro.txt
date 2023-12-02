@@ -1,0 +1,59 @@
+
+03/07/2019 10:59:08 PagSeguro.Session[info]: Begin
+03/07/2019 10:59:08 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 10:59:08 PagSeguro.Session[info]: Session ID: 66836e10f9bb4ad28e52478de2e1dbbf
+03/07/2019 11:00:43 PagSeguro.Session[info]: Begin
+03/07/2019 11:00:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:00:43 PagSeguro.Session[info]: Session ID: 937d8a6fd6cc432899a943f99142a0e5
+03/07/2019 11:02:06 PagSeguro.Session[info]: Begin
+03/07/2019 11:02:06 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:02:13 PagSeguro.Session[info]: Session ID: 4da5bc22bdfb472994986f59e6dfb3b3
+03/07/2019 11:03:43 PagSeguro.Session[info]: Begin
+03/07/2019 11:03:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:03:48 PagSeguro.Session[info]: Session ID: 6c29f7352d62457db7c984195f7b0e2c
+03/07/2019 11:05:06 PagSeguro.Session[info]: Begin
+03/07/2019 11:05:06 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:05:06 PagSeguro.Session[info]: Session ID: 69f9e2b01f6a4287bfea2b9114029b2a
+03/07/2019 11:06:18 PagSeguro.Session[info]: Begin
+03/07/2019 11:06:18 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:06:18 PagSeguro.Session[info]: Session ID: d403ecedc7ce4a1b9565552a827511f0
+03/07/2019 11:08:07 PagSeguro.Session[info]: Begin
+03/07/2019 11:08:07 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:08:07 PagSeguro.Session[info]: Session ID: bedba6fd14a54a2bb7defc7cdafaf997
+03/07/2019 11:10:14 PagSeguro.Session[info]: Begin
+03/07/2019 11:10:14 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:10:19 PagSeguro.Session[info]: Session ID: ae098239f74d4207910a0995d56f9662
+03/07/2019 11:13:05 PagSeguro.Session[info]: Begin
+03/07/2019 11:13:05 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:13:09 PagSeguro.Session[info]: Session ID: 4a2da93209db474a9a05f4b3f26af1f6
+03/07/2019 11:13:33 PagSeguro.Session[info]: Begin
+03/07/2019 11:13:33 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:13:38 PagSeguro.Session[info]: Session ID: 6e6553adbaed4850a545fa0d15ee8ee3
+03/07/2019 11:14:48 PagSeguro.Session[info]: Begin
+03/07/2019 11:14:48 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:14:49 PagSeguro.Session[info]: Session ID: a325ee043db84bce8c633ddc8537123b
+03/07/2019 11:16:39 PagSeguro.Session[info]: Begin
+03/07/2019 11:16:39 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:16:39 PagSeguro.Session[info]: Session ID: 9cff90d34a634833b6907b346e8d83ac
+03/07/2019 11:16:40 PagSeguro.Session[info]: Begin
+03/07/2019 11:16:40 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:16:40 PagSeguro.Session[info]: Session ID: be4fc0d062784a4189fd3f986dcd3813
+03/07/2019 11:16:41 PagSeguro.Session[info]: Begin
+03/07/2019 11:16:41 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:16:41 PagSeguro.Session[info]: Session ID: 808d781575db4e249053341a0edad4d9
+03/07/2019 11:16:43 PagSeguro.Session[info]: Begin
+03/07/2019 11:16:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:16:43 PagSeguro.Session[info]: Session ID: d4d71e86cf0140f5bff4bcf24b694f6b
+03/07/2019 11:16:44 PagSeguro.Session[info]: Begin
+03/07/2019 11:16:44 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:16:44 PagSeguro.Session[info]: Session ID: 998da375daa040d1b3727e25ab5cfab1
+03/07/2019 11:18:40 PagSeguro.Session[info]: Begin
+03/07/2019 11:18:40 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:18:44 PagSeguro.Session[info]: Session ID: 5537179fc3cd4258a5b55707f177daf3
+03/07/2019 11:19:43 PagSeguro.Session[info]: Begin
+03/07/2019 11:19:43 PagSeguro.Session[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/sessions?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:19:43 PagSeguro.Session[info]: Session ID: b3b3a82973eb4904979fff7676aceb63
+03/07/2019 11:51:20 PagSeguro.Checkout[info]: Begin
+03/07/2019 11:51:20 PagSeguro.Checkout[info]: POST: https://ws.sandbox.pagseguro.uol.com.br/v2/checkout?email=rodrigodeananias%40gmail.com&token=2E3F8B198D3A4703B02B18998B206A93
+03/07/2019 11:51:20 PagSeguro.Checkout[info]: Params: {"reference":"1","redirectURL":"http:\/\/localhost\/sharkpro\/obrigado\/1","notificationURL":"http:\/\/localhost\/sharkpro\/notification-pagseguro\/1","currency":"BRL","itemId1":"2","itemDescription1":"3 Whey Protein","itemQuantity1":"2","itemAmount1":"110.00","senderName":"Rodrigo de Ananias","senderEmail":"c33674267883419552031@sandbox.pagseguro.com.br","senderAreaCode":"11","senderPhone":"(**) 99502-****","senderCPF":"369.***.***-**","shippingType":2,"shippingCost":"14.00","shippingAddressStreet":"Rua Winston Churchil","shippingAddressNumber":"868","shippingAddressComplement":"CASA","shippingAddressCity":"Salto","shippingAddressState":"SP","shippingAddressDistrict":"Bela Vista","shippingAddressPostalCode":"13321-370","shippingAddressCountry":"BRA"}
+03/07/2019 11:51:20 PagSeguro.Checkout[info]: Checkout URL: https://sandbox.pagseguro.uol.com.br/v2/checkout/payment.html?code=8C7BCE6F0202ACABB44A2F96B88C382E

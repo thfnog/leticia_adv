@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /admin/*
+Disallow: /ajax/*
+Disallow: /class/*
+Disallow: /controller/*
+Disallow: /model/*
+Disallow: /view/*
+
+Sitemap: http://www.colittiadv.com.br/sitemap-index.xml

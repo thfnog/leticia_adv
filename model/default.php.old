@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>Letícia Colitti</title>
+<?
+/*$codigoExterno = $b->query("select * from codigo_externo where id=1")->fetchObject();
+if($codigoExterno->ga){
+?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<!--<script async src="https://www.googletagmanager.com/gtag/js?id=<?=$codigoExterno->ga?>"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '<?=$codigoExterno->ga?>');
+<?
+/*if($codigoExterno->ad){
+?>
+  gtag('config', '<?=$codigoExterno->ad?>');
+<?
+}if($codigoExterno->adConversion&&$s->pg=='obrigado'){
+?>
+  gtag('event', 'conversion', {'send_to': '<?=$codigoExterno->ad."/".$codigoExterno->adConversion?>'});
+<?
+}
+?>
+</script>
+<?
+}if($codigoExterno->googleTagManager){
+?>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','<?=$codigoExterno->googleTagManager?>');</script>
+<!-- End Google Tag Manager -->
+<?
+}if($s->pg=='obrigado'){
+	if($codigoExterno->pixelFacebookContato){
+?>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '<?=$codigoExterno->pixelFacebookContato?>'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" src="https://www.facebook.com/tr?id=<?=$codigoExterno->pixelFacebookContato?>&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<?
+	}elseif($codigoExterno->pixelFacebook){
+?>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '<?=$codigoExterno->pixelFacebook?>'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" src="https://www.facebook.com/tr?id=<?=$codigoExterno->pixelFacebook?>&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<?
+	}
+}else{
+	if($codigoExterno->pixelFacebook){
+?>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '<?=$codigoExterno->pixelFacebook?>'); 
+fbq('track', 'PageView');
+</script>
+<noscript>
+<img height="1" width="1" src="https://www.facebook.com/tr?id=<?=$codigoExterno->pixelFacebook?>&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<?
+	}
+}*/
+?>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<base href="<?="{$s->dom}{$s->dir}"?>"/>
+<link rel="shortcut icon" href="https://www.colittiadv.com.br/assets/img/favicon.ico">
+<!--<link rel="stylesheet" href="https://www.colittiadv.com.br/assets/css/style.css">-->
+<link rel="stylesheet" href="https://www.colittiadv.com.br/wp-content/cache/minify/3/988ea.css">
+<link rel="stylesheet" href="https://www.colittiadv.com.br/wp-content/cache/minify/3/003a2.css?">
+<link rel="stylesheet" type="text/css" href="assets/css/fonts-icones.css">
+<style id=law-firm-style-inline-css>
+/*@font-face{font-family:"Business";src:url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Business/Business.woff") format("woff"),url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Business/Business.ttf") format("truetype");}*[data-ico-business]:before{font-family:Business;content:attr(data-ico-business);}@font-face{font-family:"Construction";src:url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Construction/Construction.woff") format("woff"),url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Construction/Construction.ttf") format("truetype");}*[data-ico-construction]:before{font-family:Construction;content:attr(data-ico-construction);}@font-face{font-family:"Design";src:url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Design/Design.woff") format("woff"),url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Design/Design.ttf") format("truetype");}*[data-ico-design]:before{font-family:Design;content:attr(data-ico-design);}@font-face{font-family:"Development";src:url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Development/Development.woff") format("woff"),url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Development/Development.ttf") format("truetype");}*[data-ico-development]:before{font-family:Development;content:attr(data-ico-development);}@font-face{font-family:"Essential";src:url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Essential/Essential.woff") format("woff"),url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Essential/Essential.ttf") format("truetype");}*[data-ico-essential]:before{font-family:Essential;content:attr(data-ico-essential);}@font-face{font-family:"FontAwesome";src:url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/FontAwesome/FontAwesome.woff") format("woff"),url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/FontAwesome/FontAwesome.ttf") format("truetype");}*[data-ico-fontawesome]:before{font-family:FontAwesome;content:attr(data-ico-fontawesome);}@font-face{font-family:"Icon7Stroke";src:url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Icon7Stroke/Icon7Stroke.woff") format("woff"),url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Icon7Stroke/Icon7Stroke.ttf") format("truetype");}*[data-ico-icon7stroke]:before{font-family:Icon7Stroke;content:attr(data-ico-icon7stroke);}@font-face{font-family:"Productivity";src:url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Productivity/Productivity.woff") format("woff"),url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Productivity/Productivity.ttf") format("truetype");}*[data-ico-productivity]:before{font-family:Productivity;content:attr(data-ico-productivity);}@font-face{font-family:"Science";src:url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Science/Science.woff") format("woff"),url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Science/Science.ttf") format("truetype");}*[data-ico-science]:before{font-family:Science;content:attr(data-ico-science);}@font-face{font-family:"Transportation";src:url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Transportation/Transportation.woff") format("woff"),url("https://www.colittiadv.com.br/wp-content/themes/law-firm/fonts/Transportation/Transportation.ttf") format("truetype");}*[data-ico-transportation]:before{font-family:Transportation;content:attr(data-ico-transportation);}*/
+</style>
+<!--<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Lato%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CLibre+Baskerville%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CLato%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CLibre+Baskerville%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic%7CLato%3A100%2C200%2C300%2C400%2C500%2C600%2C700%2C800%2C900%2C100italic%2C200italic%2C300italic%2C400italic%2C500italic%2C600italic%2C700italic%2C800italic%2C900italic&amp;subset=latin%2Clatin-ext&amp;ver=1.0.0' type="text/css">-->
+<link rel="stylesheet" href="https://www.colittiadv.com.br/wp-content/cache/minify/3/7b2a9.css">
+<script defer src=wp-content/cache/minify/3/bfc45.js></script>
+<noscript>
+<style>
+.woocommerce-product-gallery{ opacity: 1 !important; }
+
+</style>
+</noscript>
+<?
+if($s->pg==='404'){
+	$s->tagd = 'Página não encontrada!';
+	$s->h1 = '404';
+	$s->tagt = '404';
+}elseif($meta=$s->metatag($s->pg)){
+	if(!$s->tagd)$s->tagd = $meta->d;
+	if(!$s->h1)$s->h1 = $meta->h1;
+	if(!$s->tagt)$s->tagt = $meta->t.($s->pgn>1?' - página '.$s->pgn:'');
+}
+if(!$s->seo['/canonical'])$s->seo['/canonical'] = $s->base.($s->pg==='home'?'':$s->pg.($s->spg&&$s->spg!=='home'?'/'.$s->spg:'').($s->cat?'/'.$s->cat:'').($s->pgn>1?'/'.$s->pgn:''));
+if(!$s->seo['@og:image'])$s->seo['@og:image'] = $s->base.'img/logo-face.png';
+//if(!$s->seo['revisit-after'])$s->seo['revisit-after'] = $s->pg==='home'?'1 day':'3 days';
+
+$s->seo['description'] = $s->tagd;
+$s->seo['keywords'] = $s->tagk;
+$s->seo['@og:title'] = $s->tagt;
+$s->seo['@og:description'] = $s->tagd;
+$s->seo['@og:url'] = $s->seo['/canonical'];
+//if($s->seo['/alternate'] = $s->seo['/canonical'])$s->seo['/alternate'] .= '" hreflang="pt-br';
+
+$s->seo['twitter:title'] = $s->tagt;
+$s->seo['twitter:description'] = $s->tagd;
+$s->seo['twitter:image'] = $s->seo['@og:image'];
+
+//if($s->pgn>1||$s->spg=='categoria'||$s->spg=='marca'||$s->spg=='tag')echo '<meta name="robots" content="noindex,follow"/>';
+//if($s->pgn>1&&($s->pg=='blog'))echo '<meta name="robots" content="noindex,follow"/>';
+if($s->pg=='fb-callback'||$s->pg=='home-slider'||$s->pg=='checkout-pagsegurocard')echo '<meta name="robots" content="noindex,nofollow"/>';
+?>
+<title><?=$s->tagt?></title>
+<!-- SEO -->
+<?php
+$s->printTags($s->seo);
+?>
+<!-- / SEO -->
+<?php
+if($s->richCards){
+?>
+<script type="application/ld+json">
+<?=json_encode($s->richCards)?>
+</script>
+<?php
+}
+?>
+<script>
+(function(h,o,t,j,a,r){
+h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+h._hjSettings={hjid:3047108,hjsv:6};
+a=o.getElementsByTagName('head')[0];
+r=o.createElement('script');r.async=1;
+r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+a.appendChild(r);
+})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+
+</script>
+</head>
+<body class="<?=$s->bodyCls.($s->pg=='404'?'page-template-default page page-id-647 page-child parent-pageid-8 bt_bb_plugin_active woocommerce-js btHeadingStyle_default btHasAltLogo btMenuRightEnabled btStickyEnabled btHideHeadline btLightSkin btBelowMenu noBodyPreloader btSoftRoundedButtons btTransparentLightHeader btNoSidebar btMenuRight btMenuHorizontal btMenuInitFinished vsc-initialized btRemovePreloader':'')?>">
+<div class="btPageWrap" id="top">
+    <div class="btVerticalHeaderTop">
+        <div class="btVerticalMenuTrigger">&nbsp;
+            <div class="bt_bb_icon" style="display:none;"><a href="#" target="_self" data-ico-fa=&#xf0c9; class="bt_bb_icon_holder"></a></div>
+        </div>
+        <div class="btLogoArea">
+            <div class="logo"> <span> <a href="."><img class="btMainLogo" data-hw="2.875" src="wp-content/uploads/sites/3/2017/04/logo-gold-white.png" alt="Law Firm main demo"><img class="btAltLogo" src="wp-content/uploads/sites/3/2017/04/logo-silver-white.png" alt="Law Firm main demo"></a> </span></div>
+        </div>
+    </div>
+	<header class="mainHeader btClear gutter">
+		<div class="mainHeaderInner">
+			<div class="btLogoArea menuHolder btClear">
+				<div class="port">
+					<div class="btHorizontalMenuTrigger">&nbsp;
+						<div class="bt_bb_icon" style="    display: block;"><a href="#" target="_self" data-ico-fa=&#xf0c9; class="bt_bb_icon_holder"></a></div>
+					</div>
+					<div class="logo"> <span> <a href="."><img class="btMainLogo" src="wp-content/uploads/sites/3/2017/04/logo-silver-white.png" alt="Law Firm main demo"><img class="btAltLogo" src="wp-content/uploads/sites/3/2017/04/logo-silver-white.png" alt="Law Firm main demo"></a> </span></div>
+					<div class="menuPort">
+						<div class="topBarInMenu">
+                        
+							<div class="topBarInMenuCell">
+								
+								<div class="btTopBox widget_search">
+									<div class="btSearch">
+										<div class="bt_bb_icon"><a href="#" target="_self" data-ico-fa=&#xf002; class="bt_bb_icon_holder"></a></div>
+										<div class="btSearchInner gutter">
+											<div class="btSearchInnerContent port">
+												<form>
+													<input type="text" name="q" placeholder="Pesquisar..." class="untouched">
+													<button type=submit data-icon=&#xf105;></button>
+												</form>
+												<div class="btSearchInnerClose">
+													<div class="bt_bb_icon"><a href="#" target="_self" data-ico-fa=&#xf00d; class="bt_bb_icon_holder"></a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<nav>
+							<ul id="menu-primary-menu" class="menu">
+								<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children"><a href=".">Home</a></li>
+								<li class="menu-item-has-children"><a href="#">Áreas De Atuação</a>
+									<ul class="sub-menu">
+<?
+$se = $b->query("select h1,t from servico where s order by t");
+while($rse=$se->fetchObject()){
+?>
+										<li><a href="<?=$rse->t?>"><?=$rse->h1?></a></li>
+<?
+}
+?>
+									</ul>
+								</li>
+								<li class="menu-item-has-children"><a href="blog">Blog</a></li>
+								<li class="menu-item-has-children"><a href="contato">Contato</a></li>
+                               
+
+                       <li><a href="https://www.facebook.com/leticiacolittiadvocacia/" target="_blank" title="facebook"><i class="icon icon-facebook"></i></a></li>
+                       <li><a href="https://www.instagram.com/leticiacolittiadvocacia/" target="_blank" title="instagram"><i class="icon icon-instagram"></i></a></li>
+                       <li><a href="https://br.linkedin.com/in/let%C3%ADcia-colitti-advocacia-e-consultoria " target="_blank" title="linkdin"><i class="icon icon-linkedin"></i></a></li>
+
+                    
+                    </ul>
+            			
+                         
+                            
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="container-alert">
+		<div id="sys-notification" class="sys-notification">
+			<div>
+				<div id="notification"></div>
+			</div>
+		</div>
+	</div>
+<?php
+if(file_exists($_inc="{$s->VIEW}{$s->pg}.php"))include $_inc;
+?>
+	<div class="btSiteFooter">
+		<div class="bt_bb_wrapper">
+			<section id="bt_bb_section5d51cbe5121c3" class="bt_bb_section bt_bb_top_spacing_large bt_bb_bottom_spacing_medium bt_bb_color_scheme_1 bt_bb_layout_boxed_1200 bt_bb_vertical_align_top">
+				<div class="bt_bb_port">
+					<div class="bt_bb_cell">
+						<div class="bt_bb_cell_inner">
+							<div class="bt_bb_row" data-structure="4-4-4" >
+								<div class="bt_bb_column col-md-4 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal" style="margin-right: -169px;" data-width="4">
+									<div class="bt_bb_column_content">
+										<div class="bt_bb_column_content_inner">
+                                        <header class="bt_bb_headline bt_bb_color_scheme_3 bt_bb_dash_none bt_bb_size_medium bt_bb_align_inherit">
+												<h2><span class="bt_bb_headline_content"><span><i>Menu</i></span></span></h2>
+											</header>
+                                            <div class="bt_bb_separator bt_bb_top_spacing_small bt_bb_border_style_none"></div>
+											<div class="bt_bb_text">
+												<p><a href=".">Home</a></p>
+                                                <p>Area de Atuação</p>
+												
+									<ul class="sub-menu" style="list-style:none;">
+										<li class=""><a href="assessoria-empresarial-direito-empresarial">Direito Empresarial</a></li>
+										<li class=""><a href="contencioso-civel">Direito Contencioso Cível</a></li>
+										<li class=""><a href="contratos-empresariais">Direito Nos Contratos Empresariais</a></li>
+										<li class=""><a href="direito-familiar-e-sucessoes">Direito Familiar &amp; Sucessões</a></li>
+										<li class=""><a href="direito-previdenciario">Direito Previdenciário</a></li>
+										<li class=""><a href="direito-trabalhista">Direito Trabalhista</a></li>
+										<li class=""><a href="imobiliario-e-condominial">Direito Imobiliário e Condominial</a></li>
+										<li class=""><a href="planos-de-saude-e-direito-medico">Direito Médico e Planos de Saúde</a></li>
+										<li class=""><a href="propriedade-intelectual">Direito da Propriedade Intelectual</a></li>
+										<li class=""><a href="recuperacao-de-credito">Direito na Recuperação de Crédito</a></li>
+										<li class=""><a href="relacoes-de-consumo">Direito nas Relações de consumo</a></li>
+										<li class=""><a href="seguros">Direito Securitário</a></li>
+										<li><a href="societario">Direito Societário</a></li>
+									</ul>
+								
+                                                <p><a href="https://www.colittiadv.com.br/blog">Blog</a></p>
+                                                <p><a href="https://www.colittiadv.com.br/contato">Contato</a></p>
+                                                <p><a href="https://www.colittiadv.com.br/politica-de-privacidade.html">Política de Privacidade</a></p>
+                                                <p><a href="https://www.colittiadv.com.br/termos-de-uso.html">Termos de Uso</a></p>
+												
+											</div>
+                                        </div>
+									</div>
+								</div>
+								<div class="bt_bb_column col-md-4 col-ms-12 bt_bb_align_center bt_bb_vertical_align_top bt_bb_padding_normal" data-width="4">
+									<div class="bt_bb_column_content">
+										<div class="bt_bb_column_content_inner">
+											<header class="bt_bb_headline bt_bb_color_scheme_3 bt_bb_dash_none bt_bb_size_medium bt_bb_align_inherit">
+												<h2><span class="bt_bb_headline_content"><span><i>Agende a consulta com um advogado</i></span></span></h2>
+											</header>
+											<div class="bt_bb_separator bt_bb_top_spacing_small bt_bb_border_style_none"></div>
+											<div class="bt_bb_text" style="    text-align: left;">
+                                             <p><i class="icon icon-phone"></i> 19 99908-8533<br>
+                                                <i class="icon icon-email"></i> leticiacolitti@hotmail.com<br>
+                                                 <i class="icon icon-location"></i> Av. Eng. Fábio Roberto Barnabé, 1968<br>
+													<span style="padding-left:16px">Jardim Esplanada - 3º Andar</span><br>
+													<span style="padding-left:16px">Indaiatuba - SP, 13331-520</span><br>
+                                             </p>
+                      
+										<!--		<p><img src="https://www.colittiadv.com.br/assets/img/phone.png" style="    width: 25px;
+    float: left;
+    /* padding-left: 0px; */
+    margin-right: 10px;"/> 19 99908-8533<br>
+													<img src="https://www.colittiadv.com.br/assets/img/email.png" style="    width: 25px;
+    float: left;
+    /* padding-left: 0px; */
+    margin-right: 10px;" />leticiacolitti@hotmail.com<br>
+                                                   <img src="https://www.colittiadv.com.br/assets/img/local.png" style="    width: 25px;
+    float: left;
+    /* padding-left: 0px; */
+    margin-right: 10px;"/> Av. Eng. Fábio Roberto Barnabé, 1968<br>
+													Jardim Esplanada - 3º Andar<br>
+													Indaiatuba - SP, 13331-520<br>-->
+                                                    <p><center>
+                                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.3238791980243!2d-47.22738548503114!3d-23.085236784921378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c8b344bdf0f393%3A0x5a964ed97f129621!2sAv.%20Eng.%20F%C3%A1bio%20Roberto%20Barnab%C3%A9%2C%201968%20-%20Jardim%20Adriana%2C%20Indaiatuba%20-%20SP%2C%2013345-605!5e0!3m2!1sen!2sbr!4v1660426441197!5m2!1sen!2sbr" width="370" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center></p>
+
+												</p>
+											</div>
+											<div class="bt_bb_separator bt_bb_top_spacing_normal bt_bb_border_style_none"></div>
+											<div class="bt_bb_icon bt_bb_color_scheme_2 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit"><a href="https://www.instagram.com/leticiacolittiadvocacia/" target="_blank" data-ico-fontawesome="&#xf16d" class="bt_bb_icon_holder"></a></div>
+											<div class="bt_bb_icon bt_bb_color_scheme_2 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit"><a href="https://www.facebook.com/leticiacolittiadvocaciaeconsultoria" target="_blank" data-ico-fontawesome="" class="bt_bb_icon_holder"></a></div>
+											<div class="bt_bb_icon bt_bb_color_scheme_2 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit"><a href="https://www.linkedin.com/company/letícia-colitti-advocacia-e-consultoria" target="_blank" data-ico-fontawesome="&#xf08c" class="bt_bb_icon_holder"></a></div>
+											<!-- <div class="bt_bb_icon bt_bb_color_scheme_2 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit"><a href="https://www.twitter.com/" target="_blank" data-ico-fontawesome="" class="bt_bb_icon_holder"></a></div>
+											<div class="bt_bb_icon bt_bb_color_scheme_2 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit"><a href="https://plus.google.com/" target="_blank" data-ico-fontawesome="" class="bt_bb_icon_holder"></a></div>
+											<div class="bt_bb_icon bt_bb_color_scheme_2 bt_bb_style_filled bt_bb_size_normal bt_bb_shape_circle bt_bb_align_inherit"><a href="https://www.pinterest.com/" target="_blank" data-ico-fontawesome="" class="bt_bb_icon_holder"></a></div> -->
+											<div class="bt_bb_separator bt_bb_top_spacing_medium bt_bb_border_style_none"></div>
+										</div>
+									</div>
+								</div>
+								<div class="bt_bb_column col-md-4 col-ms-12 bt_bb_align_left bt_bb_vertical_align_top bt_bb_padding_normal" data-width="4">
+									<div class="bt_bb_column_content">
+										<div class="bt_bb_column_content_inner"> <header class="bt_bb_headline bt_bb_color_scheme_3 bt_bb_dash_none bt_bb_size_medium bt_bb_align_inherit">
+												<h2><span class="bt_bb_headline_content"><span><i>Entre em contato conosco</i></span></span></h2>
+											</header>
+                                            <div> <p>&nbsp;</p>     <form id="actionForm">
+
+                                                            <input type="hidden" name="hasCaptcha" value="0" />
+
+                                                            <input type="hidden" name="caminho"
+
+                                                                value="ajax/u/contato.json" />
+
+                                                            <p>
+
+                                                                <label> Nome<br>
+
+                                                                    <span class="wpcf7-form-control-wrap your-name">
+
+                                                                        <input type="text" name="nome" value=""
+
+                                                                            size="40"
+
+                                                                            class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" style="border: 1px solid;">
+
+                                                                    </span> </label>
+
+                                                            </p>
+
+                                                            <p>
+
+                                                                <label> E-mail<br>
+
+                                                                    <span class="wpcf7-form-control-wrap your-email">
+
+                                                                        <input type="email" name="email" value=""
+
+                                                                            size="40"
+
+                                                                            class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" style="border: 1px solid;">
+
+                                                                    </span> </label>
+
+                                                            </p>
+
+                                                            <p>
+
+                                                                <label> Assunto<br>
+
+                                                                    <span class="wpcf7-form-control-wrap your-subject">
+
+                                                                        <input type="text" name="ass" value="" size="40"
+
+                                                                            class="wpcf7-form-control wpcf7-text" style="border: 1px solid;">
+
+                                                                    </span> </label>
+
+                                                            </p>
+
+                                                            <p>
+
+                                                                <label> Mensagem<br>
+
+                                                                    <span class="wpcf7-form-control-wrap your-message">
+
+                                                                        <textarea name="msg" cols="40" rows="5"
+
+                                                                            class="wpcf7-form-control wpcf7-textarea" style="border: 1px solid;"></textarea>
+
+                                                                    </span> </label>
+
+                                                            </p>
+
+                                                           
+
+                                                            <p>
+
+                                                            <span class="wpcf7-form-control-wrap your-subject">
+
+                                                               <input type="checkbox" name="termo" id="termo" value="on" required>Declaro aceitar os <a href="https://www.colittiadv.com.br/termos-de-uso.html" target="_blank"><strong> termos do site</strong></a> e <a href="https://www.colittiadv.com.br/politica-de-privacidade.html" target="_blank"> <strong>política de privacidade</strong></a>.
+
+															</span>
+
+
+
+                                                            </p>
+
+                                                            <p>
+
+                                                            <div
+
+                                                                class="bt_bb_button bt_bb_icon_position_right bt_bb_style_outline bt_bb_size_small">
+
+                                                                <button type="submit" class="bt_bb_link" style="color:white;border:1px solid">ENVIAR</button>
+
+                                                            </div>
+
+                                                            </p>
+
+                                                        </form></div>
+                                            </div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<footer class="btLightSkin"></footer>
+	</div>
+</div>
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+<script>
+ $(document).ready(function () {
+
+            // cookie para exibir uma vez por dia
+
+            if(Cookies.get("modal") == null){
+
+            setTimeout(function () {
+
+                $('#modal').css('opacity', 1);
+
+                var date = new Date();
+
+                date.setTime(date.getTime() + 24 * 60 * 60 * 1000);
+
+              Cookies.set("modal", "2", {expires: date});
+
+            }, 3000);
+
+    } else {
+
+	$(".modal2").css("display", "none"); 
+
+	
+
+	
+
+	}});
+
+
+    function fecharModal() { 
+
+	$(".modal2").css("display", "none"); 
+
+	$(".modal2").css("position","none");
+
+	
+
+	}
+
+</script>
+
+<style>
+
+
+        .modal2 { position:fixed;/* top:0;*/ right:0;/* margin-top: 41%;*/bottom:0; left:0; /*background:rgba(0, 0, 0, 0.8);*/ z-index:99999999999; 
+
+		opacity:1; -webkit-transition: opacity 400ms ease-in; -moz-transition: opacity 400ms ease-in; transition: opacity 400ms ease-in; pointer-events:auto; }
+
+        .modal3 { width:100%; position:relative; /*margin:30% auto;*/ padding:15px 15px; background:#f7f7f7; }
+
+        .fechar { position:absolute; width:32px; right:-15px; top:-20px; text-align:center; line-height:30px; margin-top:5px; background:#ff4545; border-radius:50%; font-size:16px; color:#fff; cursor:pointer; }
+
+	/*	.info`{ background: url(/img/bt-expansivel-right.png) no-repeat right center; }
+*/
+		.aceito {     background-color: #6e050c;
+    color: #FFF;
+    padding-left: 5px;
+    padding-right: 5px;border-radius:10px; }
+
+		.flatsome-cookies__text {     width: 76%;    float: left; margin-top:-10px;}
+</style>
+
+<div class="modal2" id="modal">
+
+        
+
+            <div class="modal3">
+
+				<div class="flatsome-cookies__inner">
+
+					<div class="flatsome-cookies__text">
+                 
+				Este site usa cookies para lhe oferecer uma melhor experiência de navegação. Ao navegar neste site, você concorda com o uso de cookies, com nossos <a href="https://www.colittiadv.com.br/termos-de-uso.html"><strong> termos de uso</strong> </a> e <a href="https://www.colittiadv.com.br/politica-de-privacidade.html"><strong>política de privacidade.</strong></a>
+					</div>
+
+					<div class="flatsome-cookies__buttons">
+
+                        <a href="https://www.colittiadv.com.br/termos-de-uso.html" target="_self" class="button secondary flatsome-cookies__more-btn btn"> 
+
+                            <button class="info" style=" padding-left: 5px; padding-right: 5px;border-radius:10px;">Dúvidas? Clique Aqui</button> </a>
+
+						<!--<a href="https://www.colittiadv.com.br/#" target="_self" class="button primary flatsome-cookies__accept-btn btn" id="aceito"> 
+-->
+						<button class="aceito" onclick="fecharModal()">Eu Aceito</button> <!--</a>-->
+
+					</div>
+
+				</div>
+
+			</div>
+
+        
+
+    </div>
+
+
+<script defer src="wp-content/cache/minify/3/69faf.js"></script>
+<script defer src="wp-content/cache/minify/3/6360f.js"></script>
+<script defer src="wp-content/cache/minify/3/dc06c.js"></script>
+<!--<script defer src="wp-content/cache/minify/3/63a69.js"></script>-->
+<script defer src="wp-content/cache/minify/3/5061c.js"></script>
+<script defer src="wp-content/cache/minify/3/4a6c0.js"></script>
+<script type="text/javascript" src="assets/js/scripts.js"></script>
+<?php /*?><script src="assets/js/scripts.js"></script><?php */?>
+<?
+Inline::write();
+?>
+</body>
+</html>

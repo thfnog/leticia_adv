@@ -1,0 +1,1 @@
+https://apps.fernandoacosta.net/gerando.php?formato=wc_table_shipping&codigo_servico=04014&limite_peso=30&cep_origem=13360-000&margem_seguranca=10&codigo_administrativo=&senha=

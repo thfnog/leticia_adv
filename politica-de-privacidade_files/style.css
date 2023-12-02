@@ -1,0 +1,520 @@
+.btLightSkin {
+    background-color: #F3EFDD !important;
+}
+/* Proggress bar */.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_1 .bt_bb_progress_bar_bg, .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_1 .bt_bb_progress_bar_bg {
+    background: #191919;
+}
+.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_1 .bt_bb_progress_bar_inner, .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_1 .bt_bb_progress_bar_inner {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_1 .bt_bb_progress_bar_bg {
+    background: #ffffff;
+}
+.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_1 .bt_bb_progress_bar_inner {
+    background: #191919;
+    color: #ffffff;
+}/* Icons */
+.bt_bb_color_scheme_1.bt_bb_icon .bt_bb_icon_holder {
+    color: #ffffff;
+}
+.bt_bb_color_scheme_1.bt_bb_icon:hover a.bt_bb_icon_holder {
+    color: #191919;
+}
+.bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+    background-color: transparent;
+    box-shadow: 0 0 0 1px #ffffff inset;
+    color: #ffffff;
+}
+.bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+    background-color: #ffffff;
+    box-shadow: 0 0 0 1em #ffffff inset;
+    color: #191919;
+}
+.bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+    box-shadow: 0 0 0 1em #191919 inset;
+    color: #ffffff;
+}
+.bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+    box-shadow: 0 0 0 1px #191919 inset;
+    background-color: #ffffff;
+    color: #191919;
+}
+.bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+    color: #ffffff;
+}
+.bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+    color: #191919;
+}/* Buttons */
+.bt_bb_color_scheme_1.bt_bb_button.bt_bb_style_outline a {
+    box-shadow: 0 0 0 1px #ffffff inset;
+    color: #ffffff;
+    background-color: transparent;
+}
+.bt_bb_color_scheme_1.bt_bb_button.bt_bb_style_outline a:hover {
+    box-shadow: 0 0 0 2em #ffffff inset;
+    color: #191919;
+}
+.bt_bb_color_scheme_1.bt_bb_button.bt_bb_style_filled a {
+    box-shadow: 0 0 0 2em #191919 inset;
+    color: #ffffff;
+}
+.bt_bb_color_scheme_1.bt_bb_button.bt_bb_style_filled a:hover {
+    box-shadow: 0 0 0 0px #191919 inset;
+    background-color: #ffffff;
+    color: #191919;
+}
+.bt_bb_color_scheme_1.bt_bb_button.bt_bb_style_clean a, .bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_borderless a {
+    color: #ffffff;
+}
+.bt_bb_color_scheme_1.bt_bb_button.bt_bb_style_clean a:hover, .bt_bb_color_scheme_1.bt_bb_icon.bt_bb_style_borderless:hover a {
+    color: #191919;
+}/* Services */
+.bt_bb_color_scheme_1.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+    box-shadow: 0 0 0 1px #ffffff inset;
+    color: #ffffff;
+    background-color: transparent;
+}
+.bt_bb_color_scheme_1.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+    box-shadow: 0 0 0 1em #ffffff inset;
+    background-color: #ffffff;
+    color: #191919;
+}
+.bt_bb_color_scheme_1.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+    box-shadow: 0 0 0 1em #191919 inset;
+    color: #ffffff;
+}
+.bt_bb_color_scheme_1.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+    box-shadow: 0 0 0 1px #191919 inset;
+    background-color: #ffffff;
+    color: #191919;
+}
+.bt_bb_color_scheme_1.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+    color: #ffffff;
+}
+.bt_bb_color_scheme_1.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+    color: #191919;
+}/* Headline */
+.bt_bb_color_scheme_1.bt_bb_headline {
+    color: #ffffff;
+}
+.bt_bb_color_scheme_1.bt_bb_headline .bt_bb_headline_superheadline {
+    color: #191919;
+}/* Tabs */
+.bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_tabs_header, .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_tabs_header {
+    border-color: #ffffff;
+}
+.bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_tabs_header li, .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_tabs_header li:hover, .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_tabs_header li.on {
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+}
+.bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_tabs_header li:hover, .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_tabs_header li.on, .bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_tabs_header li {
+    background-color: #ffffff;
+    color: #191919;
+    border-color: #ffffff;
+}
+.bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_simple .bt_bb_tabs_header li {
+    color: #191919;
+}
+.bt_bb_tabs.bt_bb_color_scheme_1.bt_bb_style_simple .bt_bb_tabs_header li.on {
+    color: #ffffff;
+    border-color: #ffffff;
+}/* Accordion */
+.bt_bb_accordion.bt_bb_color_scheme_1 .bt_bb_accordion_item {
+    border-color: #ffffff;
+}
+.bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_accordion_item_title {
+    border-color: #ffffff;
+    color: #ffffff;
+    background-color: transparent;
+}
+.bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title, .bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+    color: #191919;
+    background-color: #ffffff;
+}
+.bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+    color: #191919;
+    background-color: #ffffff;
+}
+.bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title, .bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+.bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+.bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover, .bt_bb_accordion.bt_bb_color_scheme_1.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+    color: #191919;
+    border-color: #191919;
+}/* Price List */
+.bt_bb_price_list.bt_bb_color_scheme_1 {
+    border-color: #191919;
+}
+.bt_bb_price_list.bt_bb_color_scheme_1 .bt_bb_price_list_title {
+    color: #ffffff;
+    background-color: #191919;
+}
+.bt_bb_price_list.bt_bb_color_scheme_1 ul li {
+    border-color: #191919;
+}/* Section */
+.bt_bb_section.bt_bb_color_scheme_1 {
+    color: #ffffff;
+    background-color: #191919;
+}
+</style>
+<style>
+/* Proggress bar */.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_2 .bt_bb_progress_bar_bg, .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_2 .bt_bb_progress_bar_bg {
+    background: #ffffff;
+}
+.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_2 .bt_bb_progress_bar_inner, .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_2 .bt_bb_progress_bar_inner {
+    border-color: #191919;
+    color: #191919;
+}
+.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_2 .bt_bb_progress_bar_bg {
+    background: #191919;
+}
+.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_2 .bt_bb_progress_bar_inner {
+    background: #ffffff;
+    color: #191919;
+}/* Icons */
+.bt_bb_color_scheme_2.bt_bb_icon .bt_bb_icon_holder {
+    color: #191919;
+}
+.bt_bb_color_scheme_2.bt_bb_icon:hover a.bt_bb_icon_holder {
+    color: #ffffff;
+}
+.bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+    background-color: transparent;
+    box-shadow: 0 0 0 1px #191919 inset;
+    color: #191919;
+}
+.bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+    background-color: #191919;
+    box-shadow: 0 0 0 1em #191919 inset;
+    color: #ffffff;
+}
+.bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+    box-shadow: 0 0 0 1em #ffffff inset;
+    color: #191919;
+}
+.bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+    box-shadow: 0 0 0 1px #ffffff inset;
+    background-color: #191919;
+    color: #ffffff;
+}
+.bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+    color: #191919;
+}
+.bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+    color: #ffffff;
+}/* Buttons */
+.bt_bb_color_scheme_2.bt_bb_button.bt_bb_style_outline a {
+    box-shadow: 0 0 0 1px #191919 inset;
+    color: #191919;
+    background-color: transparent;
+}
+.bt_bb_color_scheme_2.bt_bb_button.bt_bb_style_outline a:hover {
+    box-shadow: 0 0 0 2em #191919 inset;
+    color: #ffffff;
+}
+.bt_bb_color_scheme_2.bt_bb_button.bt_bb_style_filled a {
+    box-shadow: 0 0 0 2em #ffffff inset;
+    color: #191919;
+}
+.bt_bb_color_scheme_2.bt_bb_button.bt_bb_style_filled a:hover {
+    box-shadow: 0 0 0 0px #ffffff inset;
+    background-color: #191919;
+    color: #ffffff;
+}
+.bt_bb_color_scheme_2.bt_bb_button.bt_bb_style_clean a, .bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_borderless a {
+    color: #191919;
+}
+.bt_bb_color_scheme_2.bt_bb_button.bt_bb_style_clean a:hover, .bt_bb_color_scheme_2.bt_bb_icon.bt_bb_style_borderless:hover a {
+    color: #ffffff;
+}/* Services */
+.bt_bb_color_scheme_2.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+    box-shadow: 0 0 0 1px #191919 inset;
+    color: #191919;
+    background-color: transparent;
+}
+.bt_bb_color_scheme_2.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+    box-shadow: 0 0 0 1em #191919 inset;
+    background-color: #191919;
+    color: #ffffff;
+}
+.bt_bb_color_scheme_2.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+    box-shadow: 0 0 0 1em #ffffff inset;
+    color: #191919;
+}
+.bt_bb_color_scheme_2.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+    box-shadow: 0 0 0 1px #ffffff inset;
+    background-color: #191919;
+    color: #ffffff;
+}
+.bt_bb_color_scheme_2.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+    color: #191919;
+}
+.bt_bb_color_scheme_2.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+    color: #ffffff;
+}/* Headline */
+.bt_bb_color_scheme_2.bt_bb_headline {
+    color: #191919;
+}
+.bt_bb_color_scheme_2.bt_bb_headline .bt_bb_headline_superheadline {
+    color: #ffffff;
+}/* Tabs */
+.bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_tabs_header, .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_tabs_header {
+    border-color: #191919;
+}
+.bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_tabs_header li, .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_tabs_header li:hover, .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_tabs_header li.on {
+    border-color: #191919;
+    color: #191919;
+    background-color: transparent;
+}
+.bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_tabs_header li:hover, .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_tabs_header li.on, .bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_tabs_header li {
+    background-color: #191919;
+    color: #ffffff;
+    border-color: #191919;
+}
+.bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_simple .bt_bb_tabs_header li {
+    color: #ffffff;
+}
+.bt_bb_tabs.bt_bb_color_scheme_2.bt_bb_style_simple .bt_bb_tabs_header li.on {
+    color: #191919;
+    border-color: #191919;
+}/* Accordion */
+.bt_bb_accordion.bt_bb_color_scheme_2 .bt_bb_accordion_item {
+    border-color: #191919;
+}
+.bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_accordion_item_title {
+    border-color: #191919;
+    color: #191919;
+    background-color: transparent;
+}
+.bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title, .bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+    color: #ffffff;
+    background-color: #191919;
+}
+.bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+    color: #ffffff;
+    background-color: #191919;
+}
+.bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title, .bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+    color: #191919;
+    background-color: transparent;
+}
+.bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+    color: #191919;
+    border-color: #191919;
+}
+.bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover, .bt_bb_accordion.bt_bb_color_scheme_2.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+    color: #ffffff;
+    border-color: #ffffff;
+}/* Price List */
+.bt_bb_price_list.bt_bb_color_scheme_2 {
+    border-color: #ffffff;
+}
+.bt_bb_price_list.bt_bb_color_scheme_2 .bt_bb_price_list_title {
+    color: #191919;
+    background-color: #ffffff;
+}
+.bt_bb_price_list.bt_bb_color_scheme_2 ul li {
+    border-color: #ffffff;
+}/* Section */
+.bt_bb_section.bt_bb_color_scheme_2 {
+    color: #191919;
+    background-color: #ffffff;
+}
+</style>
+<style>
+/* Proggress bar */.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_3 .bt_bb_progress_bar_bg, .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_3 .bt_bb_progress_bar_bg {
+    background: #191919;
+}
+.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_3 .bt_bb_progress_bar_inner, .bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_3 .bt_bb_progress_bar_inner {
+    border-color: #CCA876;
+    color: #CCA876;
+}
+.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_3 .bt_bb_progress_bar_bg {
+    background: #CCA876;
+}
+.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_3 .bt_bb_progress_bar_inner {
+    background: #191919;
+    color: #CCA876;
+}/* Icons */
+.bt_bb_color_scheme_3.bt_bb_icon .bt_bb_icon_holder {
+    color: #CCA876;
+}
+.bt_bb_color_scheme_3.bt_bb_icon:hover a.bt_bb_icon_holder {
+    color: #191919;
+}
+.bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {
+    background-color: transparent;
+    box-shadow: 0 0 0 1px #CCA876 inset;
+    color: #CCA876;
+}
+.bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {
+    background-color: #CCA876;
+    box-shadow: 0 0 0 1em #CCA876 inset;
+    color: #191919;
+}
+.bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {
+    box-shadow: 0 0 0 1em #191919 inset;
+    color: #CCA876;
+}
+.bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {
+    box-shadow: 0 0 0 1px #191919 inset;
+    background-color: #CCA876;
+    color: #191919;
+}
+.bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {
+    color: #CCA876;
+}
+.bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {
+    color: #191919;
+}/* Buttons */
+.bt_bb_color_scheme_3.bt_bb_button.bt_bb_style_outline a {
+    box-shadow: 0 0 0 1px #CCA876 inset;
+    color: #CCA876;
+    background-color: transparent;
+}
+.bt_bb_color_scheme_3.bt_bb_button.bt_bb_style_outline a:hover {
+    box-shadow: 0 0 0 2em #CCA876 inset;
+    color: #191919;
+}
+.bt_bb_color_scheme_3.bt_bb_button.bt_bb_style_filled a {
+    box-shadow: 0 0 0 2em #191919 inset;
+    color: #CCA876;
+}
+.bt_bb_color_scheme_3.bt_bb_button.bt_bb_style_filled a:hover {
+    box-shadow: 0 0 0 0px #191919 inset;
+    background-color: #CCA876;
+    color: #191919;
+}
+.bt_bb_color_scheme_3.bt_bb_button.bt_bb_style_clean a, .bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_borderless a {
+    color: #CCA876;
+}
+.bt_bb_color_scheme_3.bt_bb_button.bt_bb_style_clean a:hover, .bt_bb_color_scheme_3.bt_bb_icon.bt_bb_style_borderless:hover a {
+    color: #191919;
+}/* Services */
+.bt_bb_color_scheme_3.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder {
+    box-shadow: 0 0 0 1px #CCA876 inset;
+    color: #CCA876;
+    background-color: transparent;
+}
+.bt_bb_color_scheme_3.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {
+    box-shadow: 0 0 0 1em #CCA876 inset;
+    background-color: #CCA876;
+    color: #191919;
+}
+.bt_bb_color_scheme_3.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {
+    box-shadow: 0 0 0 1em #191919 inset;
+    color: #CCA876;
+}
+.bt_bb_color_scheme_3.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder {
+    box-shadow: 0 0 0 1px #191919 inset;
+    background-color: #CCA876;
+    color: #191919;
+}
+.bt_bb_color_scheme_3.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {
+    color: #CCA876;
+}
+.bt_bb_color_scheme_3.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {
+    color: #191919;
+}/* Headline */
+.bt_bb_color_scheme_3.bt_bb_headline {
+    color: #CCA876;
+}
+.bt_bb_color_scheme_3.bt_bb_headline .bt_bb_headline_superheadline {
+    color: #191919;
+}/* Tabs */
+.bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_tabs_header, .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_tabs_header {
+    border-color: #CCA876;
+}
+.bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_tabs_header li, .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_tabs_header li:hover, .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_tabs_header li.on {
+    border-color: #CCA876;
+    color: #CCA876;
+    background-color: transparent;
+}
+.bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_tabs_header li:hover, .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_tabs_header li.on, .bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_tabs_header li {
+    background-color: #CCA876;
+    color: #191919;
+    border-color: #CCA876;
+}
+.bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_simple .bt_bb_tabs_header li {
+    color: #191919;
+}
+.bt_bb_tabs.bt_bb_color_scheme_3.bt_bb_style_simple .bt_bb_tabs_header li.on {
+    color: #CCA876;
+    border-color: #CCA876;
+}/* Accordion */
+.bt_bb_accordion.bt_bb_color_scheme_3 .bt_bb_accordion_item {
+    border-color: #CCA876;
+}
+.bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_accordion_item_title {
+    border-color: #CCA876;
+    color: #CCA876;
+    background-color: transparent;
+}
+.bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title, .bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+    color: #191919;
+    background-color: #CCA876;
+}
+.bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {
+    color: #191919;
+    background-color: #CCA876;
+}
+.bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title, .bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {
+    color: #CCA876;
+    background-color: transparent;
+}
+.bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {
+    color: #CCA876;
+    border-color: #CCA876;
+}
+.bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover, .bt_bb_accordion.bt_bb_color_scheme_3.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {
+    color: #191919;
+    border-color: #191919;
+}/* Price List */
+.bt_bb_price_list.bt_bb_color_scheme_3 {
+    border-color: #191919;
+}
+.bt_bb_price_list.bt_bb_color_scheme_3 .bt_bb_price_list_title {
+    color: #CCA876;
+    background-color: #191919;
+}
+.bt_bb_price_list.bt_bb_color_scheme_3 ul li {
+    border-color: #191919;
+}/* Section */
+.bt_bb_section.bt_bb_color_scheme_3 {
+    color: #CCA876;
+    background-color: #191919;
+}
+</style>
+<style>
+/* Proggress bar */.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_4 .bt_bb_progress_bar_bg,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_4 .bt_bb_progress_bar_bg{background:#ffffff;}.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_4 .bt_bb_progress_bar_inner,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_4 .bt_bb_progress_bar_inner{border-color:#CCA876;color:#CCA876;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_4 .bt_bb_progress_bar_bg {background:#CCA876;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_4 .bt_bb_progress_bar_inner {background:#ffffff;color:#CCA876;}/* Icons */.bt_bb_color_scheme_4.bt_bb_icon .bt_bb_icon_holder { color:#CCA876; }.bt_bb_color_scheme_4.bt_bb_icon:hover a.bt_bb_icon_holder { color:#ffffff; }.bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {background-color:transparent;box-shadow:0 0 0 1px #CCA876 inset;color:#CCA876;}.bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {background-color:#CCA876;box-shadow:0 0 0 1em #CCA876 inset;color:#ffffff;}.bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {box-shadow:0 0 0 1em #ffffff inset;color:#CCA876;}.bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {box-shadow:0 0 0 1px #ffffff inset;background-color:#CCA876;color:#ffffff;}.bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {color:#CCA876;}.bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {color:#ffffff;}/* Buttons */.bt_bb_color_scheme_4.bt_bb_button.bt_bb_style_outline a {box-shadow:0 0 0 1px #CCA876 inset;color:#CCA876;background-color:transparent;}.bt_bb_color_scheme_4.bt_bb_button.bt_bb_style_outline a:hover {box-shadow:0 0 0 2em #CCA876 inset;color:#ffffff;}.bt_bb_color_scheme_4.bt_bb_button.bt_bb_style_filled a {box-shadow:0 0 0 2em #ffffff inset;color:#CCA876;}.bt_bb_color_scheme_4.bt_bb_button.bt_bb_style_filled a:hover {box-shadow:0 0 0 0px #ffffff inset;background-color:#CCA876;color:#ffffff;}.bt_bb_color_scheme_4.bt_bb_button.bt_bb_style_clean a,.bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_borderless a {color:#CCA876;}.bt_bb_color_scheme_4.bt_bb_button.bt_bb_style_clean a:hover,.bt_bb_color_scheme_4.bt_bb_icon.bt_bb_style_borderless:hover a {color:#ffffff;}/* Services */.bt_bb_color_scheme_4.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder{box-shadow:0 0 0 1px #CCA876 inset;color:#CCA876;background-color:transparent;}.bt_bb_color_scheme_4.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {box-shadow:0 0 0 1em #CCA876 inset;background-color:#CCA876;color:#ffffff;}.bt_bb_color_scheme_4.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {box-shadow:0 0 0 1em #ffffff inset;color:#CCA876;}.bt_bb_color_scheme_4.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder{box-shadow:0 0 0 1px #ffffff inset;background-color:#CCA876;color:#ffffff;}.bt_bb_color_scheme_4.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {color:#CCA876;}.bt_bb_color_scheme_4.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {color:#ffffff;}/* Headline */.bt_bb_color_scheme_4.bt_bb_headline{color:#CCA876;}.bt_bb_color_scheme_4.bt_bb_headline .bt_bb_headline_superheadline{color:#ffffff;}/* Tabs */.bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_tabs_header,.bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_tabs_header {border-color:#CCA876;}.bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_tabs_header li,.bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_tabs_header li.on {border-color:#CCA876;color:#CCA876;background-color:transparent;}.bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_tabs_header li.on,.bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_tabs_header li {background-color:#CCA876;color:#ffffff;border-color:#CCA876;}.bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_simple .bt_bb_tabs_header li {color:#ffffff;}.bt_bb_tabs.bt_bb_color_scheme_4.bt_bb_style_simple .bt_bb_tabs_header li.on {color:#CCA876;border-color:#CCA876;}/* Accordion */.bt_bb_accordion.bt_bb_color_scheme_4 .bt_bb_accordion_item {border-color:#CCA876;}.bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_accordion_item_title {border-color:#CCA876;color:#CCA876;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#ffffff;background-color:#CCA876;}.bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#ffffff;background-color:#CCA876;}.bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#CCA876;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#CCA876;border-color:#CCA876;}.bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,.bt_bb_accordion.bt_bb_color_scheme_4.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {color:#ffffff;border-color:#ffffff;}/* Price List */.bt_bb_price_list.bt_bb_color_scheme_4 {border-color:#ffffff;}.bt_bb_price_list.bt_bb_color_scheme_4 .bt_bb_price_list_title {color:#CCA876;background-color:#ffffff;}.bt_bb_price_list.bt_bb_color_scheme_4 ul li {border-color:#ffffff;}/* Section */.bt_bb_section.bt_bb_color_scheme_4 {color:#CCA876;background-color:#ffffff;}
+</style>
+<style>
+/* Proggress bar */.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_5 .bt_bb_progress_bar_bg,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_5 .bt_bb_progress_bar_bg{background:#CCA876;}.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_5 .bt_bb_progress_bar_inner,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_5 .bt_bb_progress_bar_inner{border-color:#191919;color:#191919;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_5 .bt_bb_progress_bar_bg {background:#191919;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_5 .bt_bb_progress_bar_inner {background:#CCA876;color:#191919;}/* Icons */.bt_bb_color_scheme_5.bt_bb_icon .bt_bb_icon_holder { color:#191919; }.bt_bb_color_scheme_5.bt_bb_icon:hover a.bt_bb_icon_holder { color:#CCA876; }.bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {background-color:transparent;box-shadow:0 0 0 1px #191919 inset;color:#191919;}.bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {background-color:#191919;box-shadow:0 0 0 1em #191919 inset;color:#CCA876;}.bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {box-shadow:0 0 0 1em #CCA876 inset;color:#191919;}.bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {box-shadow:0 0 0 1px #CCA876 inset;background-color:#191919;color:#CCA876;}.bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {color:#191919;}.bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {color:#CCA876;}/* Buttons */.bt_bb_color_scheme_5.bt_bb_button.bt_bb_style_outline a {box-shadow:0 0 0 1px #191919 inset;color:#191919;background-color:transparent;}.bt_bb_color_scheme_5.bt_bb_button.bt_bb_style_outline a:hover {box-shadow:0 0 0 2em #191919 inset;color:#CCA876;}.bt_bb_color_scheme_5.bt_bb_button.bt_bb_style_filled a {box-shadow:0 0 0 2em #CCA876 inset;color:#191919;}.bt_bb_color_scheme_5.bt_bb_button.bt_bb_style_filled a:hover {box-shadow:0 0 0 0px #CCA876 inset;background-color:#191919;color:#CCA876;}.bt_bb_color_scheme_5.bt_bb_button.bt_bb_style_clean a,.bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_borderless a {color:#191919;}.bt_bb_color_scheme_5.bt_bb_button.bt_bb_style_clean a:hover,.bt_bb_color_scheme_5.bt_bb_icon.bt_bb_style_borderless:hover a {color:#CCA876;}/* Services */.bt_bb_color_scheme_5.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder{box-shadow:0 0 0 1px #191919 inset;color:#191919;background-color:transparent;}.bt_bb_color_scheme_5.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {box-shadow:0 0 0 1em #191919 inset;background-color:#191919;color:#CCA876;}.bt_bb_color_scheme_5.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {box-shadow:0 0 0 1em #CCA876 inset;color:#191919;}.bt_bb_color_scheme_5.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder{box-shadow:0 0 0 1px #CCA876 inset;background-color:#191919;color:#CCA876;}.bt_bb_color_scheme_5.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {color:#191919;}.bt_bb_color_scheme_5.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {color:#CCA876;}/* Headline */.bt_bb_color_scheme_5.bt_bb_headline{color:#191919;}.bt_bb_color_scheme_5.bt_bb_headline .bt_bb_headline_superheadline{color:#CCA876;}/* Tabs */.bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_tabs_header,.bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_tabs_header {border-color:#191919;}.bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_tabs_header li,.bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_tabs_header li.on {border-color:#191919;color:#191919;background-color:transparent;}.bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_tabs_header li.on,.bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_tabs_header li {background-color:#191919;color:#CCA876;border-color:#191919;}.bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_simple .bt_bb_tabs_header li {color:#CCA876;}.bt_bb_tabs.bt_bb_color_scheme_5.bt_bb_style_simple .bt_bb_tabs_header li.on {color:#191919;border-color:#191919;}/* Accordion */.bt_bb_accordion.bt_bb_color_scheme_5 .bt_bb_accordion_item {border-color:#191919;}.bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_accordion_item_title {border-color:#191919;color:#191919;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#CCA876;background-color:#191919;}.bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#CCA876;background-color:#191919;}.bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#191919;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#191919;border-color:#191919;}.bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,.bt_bb_accordion.bt_bb_color_scheme_5.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {color:#CCA876;border-color:#CCA876;}/* Price List */.bt_bb_price_list.bt_bb_color_scheme_5 {border-color:#CCA876;}.bt_bb_price_list.bt_bb_color_scheme_5 .bt_bb_price_list_title {color:#191919;background-color:#CCA876;}.bt_bb_price_list.bt_bb_color_scheme_5 ul li {border-color:#CCA876;}/* Section */.bt_bb_section.bt_bb_color_scheme_5 {color:#191919;background-color:#CCA876;}
+</style>
+<style>
+/* Proggress bar */.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_6 .bt_bb_progress_bar_bg,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_6 .bt_bb_progress_bar_bg{background:#CCA876;}.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_6 .bt_bb_progress_bar_inner,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_6 .bt_bb_progress_bar_inner{border-color:#ffffff;color:#ffffff;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_6 .bt_bb_progress_bar_bg {background:#ffffff;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_6 .bt_bb_progress_bar_inner {background:#CCA876;color:#ffffff;}/* Icons */.bt_bb_color_scheme_6.bt_bb_icon .bt_bb_icon_holder { color:#ffffff; }.bt_bb_color_scheme_6.bt_bb_icon:hover a.bt_bb_icon_holder { color:#CCA876; }.bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {background-color:transparent;box-shadow:0 0 0 1px #ffffff inset;color:#ffffff;}.bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {background-color:#ffffff;box-shadow:0 0 0 1em #ffffff inset;color:#CCA876;}.bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {box-shadow:0 0 0 1em #CCA876 inset;color:#ffffff;}.bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {box-shadow:0 0 0 1px #CCA876 inset;background-color:#ffffff;color:#CCA876;}.bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {color:#ffffff;}.bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {color:#CCA876;}/* Buttons */.bt_bb_color_scheme_6.bt_bb_button.bt_bb_style_outline a {box-shadow:0 0 0 1px #ffffff inset;color:#ffffff;background-color:transparent;}.bt_bb_color_scheme_6.bt_bb_button.bt_bb_style_outline a:hover {box-shadow:0 0 0 2em #ffffff inset;color:#CCA876;}.bt_bb_color_scheme_6.bt_bb_button.bt_bb_style_filled a {box-shadow:0 0 0 2em #CCA876 inset;color:#ffffff;}.bt_bb_color_scheme_6.bt_bb_button.bt_bb_style_filled a:hover {box-shadow:0 0 0 0px #CCA876 inset;background-color:#ffffff;color:#CCA876;}.bt_bb_color_scheme_6.bt_bb_button.bt_bb_style_clean a,.bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_borderless a {color:#ffffff;}.bt_bb_color_scheme_6.bt_bb_button.bt_bb_style_clean a:hover,.bt_bb_color_scheme_6.bt_bb_icon.bt_bb_style_borderless:hover a {color:#CCA876;}/* Services */.bt_bb_color_scheme_6.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder{box-shadow:0 0 0 1px #ffffff inset;color:#ffffff;background-color:transparent;}.bt_bb_color_scheme_6.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {box-shadow:0 0 0 1em #ffffff inset;background-color:#ffffff;color:#CCA876;}.bt_bb_color_scheme_6.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {box-shadow:0 0 0 1em #CCA876 inset;color:#ffffff;}.bt_bb_color_scheme_6.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder{box-shadow:0 0 0 1px #CCA876 inset;background-color:#ffffff;color:#CCA876;}.bt_bb_color_scheme_6.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {color:#ffffff;}.bt_bb_color_scheme_6.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {color:#CCA876;}/* Headline */.bt_bb_color_scheme_6.bt_bb_headline{color:#ffffff;}.bt_bb_color_scheme_6.bt_bb_headline .bt_bb_headline_superheadline{color:#CCA876;}/* Tabs */.bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_tabs_header,.bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_tabs_header {border-color:#ffffff;}.bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_tabs_header li,.bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_tabs_header li.on {border-color:#ffffff;color:#ffffff;background-color:transparent;}.bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_tabs_header li.on,.bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_tabs_header li {background-color:#ffffff;color:#CCA876;border-color:#ffffff;}.bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_simple .bt_bb_tabs_header li {color:#CCA876;}.bt_bb_tabs.bt_bb_color_scheme_6.bt_bb_style_simple .bt_bb_tabs_header li.on {color:#ffffff;border-color:#ffffff;}/* Accordion */.bt_bb_accordion.bt_bb_color_scheme_6 .bt_bb_accordion_item {border-color:#ffffff;}.bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_accordion_item_title {border-color:#ffffff;color:#ffffff;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#CCA876;background-color:#ffffff;}.bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#CCA876;background-color:#ffffff;}.bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#ffffff;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#ffffff;border-color:#ffffff;}.bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,.bt_bb_accordion.bt_bb_color_scheme_6.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {color:#CCA876;border-color:#CCA876;}/* Price List */.bt_bb_price_list.bt_bb_color_scheme_6 {border-color:#CCA876;}.bt_bb_price_list.bt_bb_color_scheme_6 .bt_bb_price_list_title {color:#ffffff;background-color:#CCA876;}.bt_bb_price_list.bt_bb_color_scheme_6 ul li {border-color:#CCA876;}/* Section */.bt_bb_section.bt_bb_color_scheme_6 {color:#ffffff;background-color:#CCA876;}
+</style>
+<style>
+/* Proggress bar */.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_7 .bt_bb_progress_bar_bg,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_7 .bt_bb_progress_bar_bg{background:#191919;}.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_7 .bt_bb_progress_bar_inner,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_7 .bt_bb_progress_bar_inner{border-color:#FF7F00;color:#FF7F00;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_7 .bt_bb_progress_bar_bg {background:#FF7F00;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_7 .bt_bb_progress_bar_inner {background:#191919;color:#FF7F00;}/* Icons */.bt_bb_color_scheme_7.bt_bb_icon .bt_bb_icon_holder { color:#FF7F00; }.bt_bb_color_scheme_7.bt_bb_icon:hover a.bt_bb_icon_holder { color:#191919; }.bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {background-color:transparent;box-shadow:0 0 0 1px #FF7F00 inset;color:#FF7F00;}.bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {background-color:#FF7F00;box-shadow:0 0 0 1em #FF7F00 inset;color:#191919;}.bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {box-shadow:0 0 0 1em #191919 inset;color:#FF7F00;}.bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {box-shadow:0 0 0 1px #191919 inset;background-color:#FF7F00;color:#191919;}.bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {color:#FF7F00;}.bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {color:#191919;}/* Buttons */.bt_bb_color_scheme_7.bt_bb_button.bt_bb_style_outline a {box-shadow:0 0 0 1px #FF7F00 inset;color:#FF7F00;background-color:transparent;}.bt_bb_color_scheme_7.bt_bb_button.bt_bb_style_outline a:hover {box-shadow:0 0 0 2em #FF7F00 inset;color:#191919;}.bt_bb_color_scheme_7.bt_bb_button.bt_bb_style_filled a {box-shadow:0 0 0 2em #191919 inset;color:#FF7F00;}.bt_bb_color_scheme_7.bt_bb_button.bt_bb_style_filled a:hover {box-shadow:0 0 0 0px #191919 inset;background-color:#FF7F00;color:#191919;}.bt_bb_color_scheme_7.bt_bb_button.bt_bb_style_clean a,.bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_borderless a {color:#FF7F00;}.bt_bb_color_scheme_7.bt_bb_button.bt_bb_style_clean a:hover,.bt_bb_color_scheme_7.bt_bb_icon.bt_bb_style_borderless:hover a {color:#191919;}/* Services */.bt_bb_color_scheme_7.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder{box-shadow:0 0 0 1px #FF7F00 inset;color:#FF7F00;background-color:transparent;}.bt_bb_color_scheme_7.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {box-shadow:0 0 0 1em #FF7F00 inset;background-color:#FF7F00;color:#191919;}.bt_bb_color_scheme_7.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {box-shadow:0 0 0 1em #191919 inset;color:#FF7F00;}.bt_bb_color_scheme_7.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder{box-shadow:0 0 0 1px #191919 inset;background-color:#FF7F00;color:#191919;}.bt_bb_color_scheme_7.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {color:#FF7F00;}.bt_bb_color_scheme_7.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {color:#191919;}/* Headline */.bt_bb_color_scheme_7.bt_bb_headline{color:#FF7F00;}.bt_bb_color_scheme_7.bt_bb_headline .bt_bb_headline_superheadline{color:#191919;}/* Tabs */.bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_tabs_header,.bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_tabs_header {border-color:#FF7F00;}.bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_tabs_header li,.bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_tabs_header li.on {border-color:#FF7F00;color:#FF7F00;background-color:transparent;}.bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_tabs_header li.on,.bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_tabs_header li {background-color:#FF7F00;color:#191919;border-color:#FF7F00;}.bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_simple .bt_bb_tabs_header li {color:#191919;}.bt_bb_tabs.bt_bb_color_scheme_7.bt_bb_style_simple .bt_bb_tabs_header li.on {color:#FF7F00;border-color:#FF7F00;}/* Accordion */.bt_bb_accordion.bt_bb_color_scheme_7 .bt_bb_accordion_item {border-color:#FF7F00;}.bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_accordion_item_title {border-color:#FF7F00;color:#FF7F00;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#191919;background-color:#FF7F00;}.bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#191919;background-color:#FF7F00;}.bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#FF7F00;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#FF7F00;border-color:#FF7F00;}.bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,.bt_bb_accordion.bt_bb_color_scheme_7.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {color:#191919;border-color:#191919;}/* Price List */.bt_bb_price_list.bt_bb_color_scheme_7 {border-color:#191919;}.bt_bb_price_list.bt_bb_color_scheme_7 .bt_bb_price_list_title {color:#FF7F00;background-color:#191919;}.bt_bb_price_list.bt_bb_color_scheme_7 ul li {border-color:#191919;}/* Section */.bt_bb_section.bt_bb_color_scheme_7 {color:#FF7F00;background-color:#191919;}
+</style>
+<style>
+/* Proggress bar */.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_8 .bt_bb_progress_bar_bg,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_8 .bt_bb_progress_bar_bg{background:#ffffff;}.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_8 .bt_bb_progress_bar_inner,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_8 .bt_bb_progress_bar_inner{border-color:#FF7F00;color:#FF7F00;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_8 .bt_bb_progress_bar_bg {background:#FF7F00;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_8 .bt_bb_progress_bar_inner {background:#ffffff;color:#FF7F00;}/* Icons */.bt_bb_color_scheme_8.bt_bb_icon .bt_bb_icon_holder { color:#FF7F00; }.bt_bb_color_scheme_8.bt_bb_icon:hover a.bt_bb_icon_holder { color:#ffffff; }.bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {background-color:transparent;box-shadow:0 0 0 1px #FF7F00 inset;color:#FF7F00;}.bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {background-color:#FF7F00;box-shadow:0 0 0 1em #FF7F00 inset;color:#ffffff;}.bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {box-shadow:0 0 0 1em #ffffff inset;color:#FF7F00;}.bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {box-shadow:0 0 0 1px #ffffff inset;background-color:#FF7F00;color:#ffffff;}.bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {color:#FF7F00;}.bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {color:#ffffff;}/* Buttons */.bt_bb_color_scheme_8.bt_bb_button.bt_bb_style_outline a {box-shadow:0 0 0 1px #FF7F00 inset;color:#FF7F00;background-color:transparent;}.bt_bb_color_scheme_8.bt_bb_button.bt_bb_style_outline a:hover {box-shadow:0 0 0 2em #FF7F00 inset;color:#ffffff;}.bt_bb_color_scheme_8.bt_bb_button.bt_bb_style_filled a {box-shadow:0 0 0 2em #ffffff inset;color:#FF7F00;}.bt_bb_color_scheme_8.bt_bb_button.bt_bb_style_filled a:hover {box-shadow:0 0 0 0px #ffffff inset;background-color:#FF7F00;color:#ffffff;}.bt_bb_color_scheme_8.bt_bb_button.bt_bb_style_clean a,.bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_borderless a {color:#FF7F00;}.bt_bb_color_scheme_8.bt_bb_button.bt_bb_style_clean a:hover,.bt_bb_color_scheme_8.bt_bb_icon.bt_bb_style_borderless:hover a {color:#ffffff;}/* Services */.bt_bb_color_scheme_8.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder{box-shadow:0 0 0 1px #FF7F00 inset;color:#FF7F00;background-color:transparent;}.bt_bb_color_scheme_8.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {box-shadow:0 0 0 1em #FF7F00 inset;background-color:#FF7F00;color:#ffffff;}.bt_bb_color_scheme_8.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {box-shadow:0 0 0 1em #ffffff inset;color:#FF7F00;}.bt_bb_color_scheme_8.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder{box-shadow:0 0 0 1px #ffffff inset;background-color:#FF7F00;color:#ffffff;}.bt_bb_color_scheme_8.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {color:#FF7F00;}.bt_bb_color_scheme_8.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {color:#ffffff;}/* Headline */.bt_bb_color_scheme_8.bt_bb_headline{color:#FF7F00;}.bt_bb_color_scheme_8.bt_bb_headline .bt_bb_headline_superheadline{color:#ffffff;}/* Tabs */.bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_tabs_header,.bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_tabs_header {border-color:#FF7F00;}.bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_tabs_header li,.bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_tabs_header li.on {border-color:#FF7F00;color:#FF7F00;background-color:transparent;}.bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_tabs_header li.on,.bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_tabs_header li {background-color:#FF7F00;color:#ffffff;border-color:#FF7F00;}.bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_simple .bt_bb_tabs_header li {color:#ffffff;}.bt_bb_tabs.bt_bb_color_scheme_8.bt_bb_style_simple .bt_bb_tabs_header li.on {color:#FF7F00;border-color:#FF7F00;}/* Accordion */.bt_bb_accordion.bt_bb_color_scheme_8 .bt_bb_accordion_item {border-color:#FF7F00;}.bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_accordion_item_title {border-color:#FF7F00;color:#FF7F00;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#ffffff;background-color:#FF7F00;}.bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#ffffff;background-color:#FF7F00;}.bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#FF7F00;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#FF7F00;border-color:#FF7F00;}.bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,.bt_bb_accordion.bt_bb_color_scheme_8.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {color:#ffffff;border-color:#ffffff;}/* Price List */.bt_bb_price_list.bt_bb_color_scheme_8 {border-color:#ffffff;}.bt_bb_price_list.bt_bb_color_scheme_8 .bt_bb_price_list_title {color:#FF7F00;background-color:#ffffff;}.bt_bb_price_list.bt_bb_color_scheme_8 ul li {border-color:#ffffff;}/* Section */.bt_bb_section.bt_bb_color_scheme_8 {color:#FF7F00;background-color:#ffffff;}
+</style>
+<style>
+/* Proggress bar */.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_9 .bt_bb_progress_bar_bg,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_9 .bt_bb_progress_bar_bg{background:#FF7F00;}.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_9 .bt_bb_progress_bar_inner,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_9 .bt_bb_progress_bar_inner{border-color:#191919;color:#191919;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_9 .bt_bb_progress_bar_bg {background:#191919;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_9 .bt_bb_progress_bar_inner {background:#FF7F00;color:#191919;}/* Icons */.bt_bb_color_scheme_9.bt_bb_icon .bt_bb_icon_holder { color:#191919; }.bt_bb_color_scheme_9.bt_bb_icon:hover a.bt_bb_icon_holder { color:#FF7F00; }.bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {background-color:transparent;box-shadow:0 0 0 1px #191919 inset;color:#191919;}.bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {background-color:#191919;box-shadow:0 0 0 1em #191919 inset;color:#FF7F00;}.bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {box-shadow:0 0 0 1em #FF7F00 inset;color:#191919;}.bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {box-shadow:0 0 0 1px #FF7F00 inset;background-color:#191919;color:#FF7F00;}.bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {color:#191919;}.bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {color:#FF7F00;}/* Buttons */.bt_bb_color_scheme_9.bt_bb_button.bt_bb_style_outline a {box-shadow:0 0 0 1px #191919 inset;color:#191919;background-color:transparent;}.bt_bb_color_scheme_9.bt_bb_button.bt_bb_style_outline a:hover {box-shadow:0 0 0 2em #191919 inset;color:#FF7F00;}.bt_bb_color_scheme_9.bt_bb_button.bt_bb_style_filled a {box-shadow:0 0 0 2em #FF7F00 inset;color:#191919;}.bt_bb_color_scheme_9.bt_bb_button.bt_bb_style_filled a:hover {box-shadow:0 0 0 0px #FF7F00 inset;background-color:#191919;color:#FF7F00;}.bt_bb_color_scheme_9.bt_bb_button.bt_bb_style_clean a,.bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_borderless a {color:#191919;}.bt_bb_color_scheme_9.bt_bb_button.bt_bb_style_clean a:hover,.bt_bb_color_scheme_9.bt_bb_icon.bt_bb_style_borderless:hover a {color:#FF7F00;}/* Services */.bt_bb_color_scheme_9.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder{box-shadow:0 0 0 1px #191919 inset;color:#191919;background-color:transparent;}.bt_bb_color_scheme_9.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {box-shadow:0 0 0 1em #191919 inset;background-color:#191919;color:#FF7F00;}.bt_bb_color_scheme_9.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {box-shadow:0 0 0 1em #FF7F00 inset;color:#191919;}.bt_bb_color_scheme_9.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder{box-shadow:0 0 0 1px #FF7F00 inset;background-color:#191919;color:#FF7F00;}.bt_bb_color_scheme_9.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {color:#191919;}.bt_bb_color_scheme_9.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {color:#FF7F00;}/* Headline */.bt_bb_color_scheme_9.bt_bb_headline{color:#191919;}.bt_bb_color_scheme_9.bt_bb_headline .bt_bb_headline_superheadline{color:#FF7F00;}/* Tabs */.bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_tabs_header,.bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_tabs_header {border-color:#191919;}.bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_tabs_header li,.bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_tabs_header li.on {border-color:#191919;color:#191919;background-color:transparent;}.bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_tabs_header li.on,.bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_tabs_header li {background-color:#191919;color:#FF7F00;border-color:#191919;}.bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_simple .bt_bb_tabs_header li {color:#FF7F00;}.bt_bb_tabs.bt_bb_color_scheme_9.bt_bb_style_simple .bt_bb_tabs_header li.on {color:#191919;border-color:#191919;}/* Accordion */.bt_bb_accordion.bt_bb_color_scheme_9 .bt_bb_accordion_item {border-color:#191919;}.bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_accordion_item_title {border-color:#191919;color:#191919;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#FF7F00;background-color:#191919;}.bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#FF7F00;background-color:#191919;}.bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#191919;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#191919;border-color:#191919;}.bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,.bt_bb_accordion.bt_bb_color_scheme_9.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {color:#FF7F00;border-color:#FF7F00;}/* Price List */.bt_bb_price_list.bt_bb_color_scheme_9 {border-color:#FF7F00;}.bt_bb_price_list.bt_bb_color_scheme_9 .bt_bb_price_list_title {color:#191919;background-color:#FF7F00;}.bt_bb_price_list.bt_bb_color_scheme_9 ul li {border-color:#FF7F00;}/* Section */.bt_bb_section.bt_bb_color_scheme_9 {color:#191919;background-color:#FF7F00;}
+</style>
+<style>
+/* Proggress bar */.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_10 .bt_bb_progress_bar_bg,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_10 .bt_bb_progress_bar_bg{background:#FF7F00;}.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_10 .bt_bb_progress_bar_inner,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_10 .bt_bb_progress_bar_inner{border-color:#ffffff;color:#ffffff;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_10 .bt_bb_progress_bar_bg {background:#ffffff;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_10 .bt_bb_progress_bar_inner {background:#FF7F00;color:#ffffff;}/* Icons */.bt_bb_color_scheme_10.bt_bb_icon .bt_bb_icon_holder { color:#ffffff; }.bt_bb_color_scheme_10.bt_bb_icon:hover a.bt_bb_icon_holder { color:#FF7F00; }.bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {background-color:transparent;box-shadow:0 0 0 1px #ffffff inset;color:#ffffff;}.bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {background-color:#ffffff;box-shadow:0 0 0 1em #ffffff inset;color:#FF7F00;}.bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {box-shadow:0 0 0 1em #FF7F00 inset;color:#ffffff;}.bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {box-shadow:0 0 0 1px #FF7F00 inset;background-color:#ffffff;color:#FF7F00;}.bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {color:#ffffff;}.bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {color:#FF7F00;}/* Buttons */.bt_bb_color_scheme_10.bt_bb_button.bt_bb_style_outline a {box-shadow:0 0 0 1px #ffffff inset;color:#ffffff;background-color:transparent;}.bt_bb_color_scheme_10.bt_bb_button.bt_bb_style_outline a:hover {box-shadow:0 0 0 2em #ffffff inset;color:#FF7F00;}.bt_bb_color_scheme_10.bt_bb_button.bt_bb_style_filled a {box-shadow:0 0 0 2em #FF7F00 inset;color:#ffffff;}.bt_bb_color_scheme_10.bt_bb_button.bt_bb_style_filled a:hover {box-shadow:0 0 0 0px #FF7F00 inset;background-color:#ffffff;color:#FF7F00;}.bt_bb_color_scheme_10.bt_bb_button.bt_bb_style_clean a,.bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_borderless a {color:#ffffff;}.bt_bb_color_scheme_10.bt_bb_button.bt_bb_style_clean a:hover,.bt_bb_color_scheme_10.bt_bb_icon.bt_bb_style_borderless:hover a {color:#FF7F00;}/* Services */.bt_bb_color_scheme_10.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder{box-shadow:0 0 0 1px #ffffff inset;color:#ffffff;background-color:transparent;}.bt_bb_color_scheme_10.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {box-shadow:0 0 0 1em #ffffff inset;background-color:#ffffff;color:#FF7F00;}.bt_bb_color_scheme_10.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {box-shadow:0 0 0 1em #FF7F00 inset;color:#ffffff;}.bt_bb_color_scheme_10.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder{box-shadow:0 0 0 1px #FF7F00 inset;background-color:#ffffff;color:#FF7F00;}.bt_bb_color_scheme_10.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {color:#ffffff;}.bt_bb_color_scheme_10.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {color:#FF7F00;}/* Headline */.bt_bb_color_scheme_10.bt_bb_headline{color:#ffffff;}.bt_bb_color_scheme_10.bt_bb_headline .bt_bb_headline_superheadline{color:#FF7F00;}/* Tabs */.bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_tabs_header,.bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_tabs_header {border-color:#ffffff;}.bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_tabs_header li,.bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_tabs_header li.on {border-color:#ffffff;color:#ffffff;background-color:transparent;}.bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_tabs_header li.on,.bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_tabs_header li {background-color:#ffffff;color:#FF7F00;border-color:#ffffff;}.bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_simple .bt_bb_tabs_header li {color:#FF7F00;}.bt_bb_tabs.bt_bb_color_scheme_10.bt_bb_style_simple .bt_bb_tabs_header li.on {color:#ffffff;border-color:#ffffff;}/* Accordion */.bt_bb_accordion.bt_bb_color_scheme_10 .bt_bb_accordion_item {border-color:#ffffff;}.bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_accordion_item_title {border-color:#ffffff;color:#ffffff;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#FF7F00;background-color:#ffffff;}.bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#FF7F00;background-color:#ffffff;}.bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#ffffff;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#ffffff;border-color:#ffffff;}.bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,.bt_bb_accordion.bt_bb_color_scheme_10.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {color:#FF7F00;border-color:#FF7F00;}/* Price List */.bt_bb_price_list.bt_bb_color_scheme_10 {border-color:#FF7F00;}.bt_bb_price_list.bt_bb_color_scheme_10 .bt_bb_price_list_title {color:#ffffff;background-color:#FF7F00;}.bt_bb_price_list.bt_bb_color_scheme_10 ul li {border-color:#FF7F00;}/* Section */.bt_bb_section.bt_bb_color_scheme_10 {color:#ffffff;background-color:#FF7F00;}
+</style>
+<style>
+/* Proggress bar */.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_11 .bt_bb_progress_bar_bg,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_11 .bt_bb_progress_bar_bg{background:#FF7F00;}.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_11 .bt_bb_progress_bar_inner,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_11 .bt_bb_progress_bar_inner{border-color:#ffffff;color:#ffffff;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_11 .bt_bb_progress_bar_bg {background:#ffffff;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_11 .bt_bb_progress_bar_inner {background:#FF7F00;color:#ffffff;}/* Icons */.bt_bb_color_scheme_11.bt_bb_icon .bt_bb_icon_holder { color:#ffffff; }.bt_bb_color_scheme_11.bt_bb_icon:hover a.bt_bb_icon_holder { color:#FF7F00; }.bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {background-color:transparent;box-shadow:0 0 0 1px #ffffff inset;color:#ffffff;}.bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {background-color:#ffffff;box-shadow:0 0 0 1em #ffffff inset;color:#FF7F00;}.bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {box-shadow:0 0 0 1em #FF7F00 inset;color:#ffffff;}.bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {box-shadow:0 0 0 1px #FF7F00 inset;background-color:#ffffff;color:#FF7F00;}.bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {color:#ffffff;}.bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {color:#FF7F00;}/* Buttons */.bt_bb_color_scheme_11.bt_bb_button.bt_bb_style_outline a {box-shadow:0 0 0 1px #ffffff inset;color:#ffffff;background-color:transparent;}.bt_bb_color_scheme_11.bt_bb_button.bt_bb_style_outline a:hover {box-shadow:0 0 0 2em #ffffff inset;color:#FF7F00;}.bt_bb_color_scheme_11.bt_bb_button.bt_bb_style_filled a {box-shadow:0 0 0 2em #FF7F00 inset;color:#ffffff;}.bt_bb_color_scheme_11.bt_bb_button.bt_bb_style_filled a:hover {box-shadow:0 0 0 0px #FF7F00 inset;background-color:#ffffff;color:#FF7F00;}.bt_bb_color_scheme_11.bt_bb_button.bt_bb_style_clean a,.bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_borderless a {color:#ffffff;}.bt_bb_color_scheme_11.bt_bb_button.bt_bb_style_clean a:hover,.bt_bb_color_scheme_11.bt_bb_icon.bt_bb_style_borderless:hover a {color:#FF7F00;}/* Services */.bt_bb_color_scheme_11.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder{box-shadow:0 0 0 1px #ffffff inset;color:#ffffff;background-color:transparent;}.bt_bb_color_scheme_11.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {box-shadow:0 0 0 1em #ffffff inset;background-color:#ffffff;color:#FF7F00;}.bt_bb_color_scheme_11.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {box-shadow:0 0 0 1em #FF7F00 inset;color:#ffffff;}.bt_bb_color_scheme_11.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder{box-shadow:0 0 0 1px #FF7F00 inset;background-color:#ffffff;color:#FF7F00;}.bt_bb_color_scheme_11.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {color:#ffffff;}.bt_bb_color_scheme_11.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {color:#FF7F00;}/* Headline */.bt_bb_color_scheme_11.bt_bb_headline{color:#ffffff;}.bt_bb_color_scheme_11.bt_bb_headline .bt_bb_headline_superheadline{color:#FF7F00;}/* Tabs */.bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_tabs_header,.bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_tabs_header {border-color:#ffffff;}.bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_tabs_header li,.bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_tabs_header li.on {border-color:#ffffff;color:#ffffff;background-color:transparent;}.bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_tabs_header li.on,.bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_tabs_header li {background-color:#ffffff;color:#FF7F00;border-color:#ffffff;}.bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_simple .bt_bb_tabs_header li {color:#FF7F00;}.bt_bb_tabs.bt_bb_color_scheme_11.bt_bb_style_simple .bt_bb_tabs_header li.on {color:#ffffff;border-color:#ffffff;}/* Accordion */.bt_bb_accordion.bt_bb_color_scheme_11 .bt_bb_accordion_item {border-color:#ffffff;}.bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_accordion_item_title {border-color:#ffffff;color:#ffffff;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#FF7F00;background-color:#ffffff;}.bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#FF7F00;background-color:#ffffff;}.bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#ffffff;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#ffffff;border-color:#ffffff;}.bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,.bt_bb_accordion.bt_bb_color_scheme_11.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {color:#FF7F00;border-color:#FF7F00;}/* Price List */.bt_bb_price_list.bt_bb_color_scheme_11 {border-color:#FF7F00;}.bt_bb_price_list.bt_bb_color_scheme_11 .bt_bb_price_list_title {color:#ffffff;background-color:#FF7F00;}.bt_bb_price_list.bt_bb_color_scheme_11 ul li {border-color:#FF7F00;}/* Section */.bt_bb_section.bt_bb_color_scheme_11 {color:#ffffff;background-color:#FF7F00;}
+</style>
+<style>
+/* Proggress bar */.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_12 .bt_bb_progress_bar_bg,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_12 .bt_bb_progress_bar_bg{background:#efefef;}.bt_bb_progress_bar.bt_bb_style_outline.bt_bb_color_scheme_12 .bt_bb_progress_bar_inner,.bt_bb_progress_bar.bt_bb_style_line.bt_bb_color_scheme_12 .bt_bb_progress_bar_inner{border-color:#181818;color:#181818;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_12 .bt_bb_progress_bar_bg {background:#181818;}.bt_bb_progress_bar.bt_bb_style_filled.bt_bb_color_scheme_12 .bt_bb_progress_bar_inner {background:#efefef;color:#181818;}/* Icons */.bt_bb_color_scheme_12.bt_bb_icon .bt_bb_icon_holder { color:#181818; }.bt_bb_color_scheme_12.bt_bb_icon:hover a.bt_bb_icon_holder { color:#efefef; }.bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_outline .bt_bb_icon_holder:before {background-color:transparent;box-shadow:0 0 0 1px #181818 inset;color:#181818;}.bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_outline:hover a.bt_bb_icon_holder:before {background-color:#181818;box-shadow:0 0 0 1em #181818 inset;color:#efefef;}.bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_filled .bt_bb_icon_holder:before {box-shadow:0 0 0 1em #efefef inset;color:#181818;}.bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_filled:hover a.bt_bb_icon_holder:before {box-shadow:0 0 0 1px #efefef inset;background-color:#181818;color:#efefef;}.bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_borderless .bt_bb_icon_holder:before {color:#181818;}.bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_borderless:hover a.bt_bb_icon_holder:before {color:#efefef;}/* Buttons */.bt_bb_color_scheme_12.bt_bb_button.bt_bb_style_outline a {box-shadow:0 0 0 1px #181818 inset;color:#181818;background-color:transparent;}.bt_bb_color_scheme_12.bt_bb_button.bt_bb_style_outline a:hover {box-shadow:0 0 0 2em #181818 inset;color:#efefef;}.bt_bb_color_scheme_12.bt_bb_button.bt_bb_style_filled a {box-shadow:0 0 0 2em #efefef inset;color:#181818;}.bt_bb_color_scheme_12.bt_bb_button.bt_bb_style_filled a:hover {box-shadow:0 0 0 0px #efefef inset;background-color:#181818;color:#efefef;}.bt_bb_color_scheme_12.bt_bb_button.bt_bb_style_clean a,.bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_borderless a {color:#181818;}.bt_bb_color_scheme_12.bt_bb_button.bt_bb_style_clean a:hover,.bt_bb_color_scheme_12.bt_bb_icon.bt_bb_style_borderless:hover a {color:#efefef;}/* Services */.bt_bb_color_scheme_12.bt_bb_style_outline.bt_bb_service .bt_bb_icon_holder{box-shadow:0 0 0 1px #181818 inset;color:#181818;background-color:transparent;}.bt_bb_color_scheme_12.bt_bb_style_outline.bt_bb_service:hover .bt_bb_icon_holder {box-shadow:0 0 0 1em #181818 inset;background-color:#181818;color:#efefef;}.bt_bb_color_scheme_12.bt_bb_style_filled.bt_bb_service .bt_bb_icon_holder {box-shadow:0 0 0 1em #efefef inset;color:#181818;}.bt_bb_color_scheme_12.bt_bb_style_filled.bt_bb_service:hover .bt_bb_icon_holder{box-shadow:0 0 0 1px #efefef inset;background-color:#181818;color:#efefef;}.bt_bb_color_scheme_12.bt_bb_style_borderless.bt_bb_service .bt_bb_icon_holder {color:#181818;}.bt_bb_color_scheme_12.bt_bb_style_borderless.bt_bb_service:hover .bt_bb_icon_holder {color:#efefef;}/* Headline */.bt_bb_color_scheme_12.bt_bb_headline{color:#181818;}.bt_bb_color_scheme_12.bt_bb_headline .bt_bb_headline_superheadline{color:#efefef;}/* Tabs */.bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_tabs_header,.bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_tabs_header {border-color:#181818;}.bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_tabs_header li,.bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_tabs_header li.on {border-color:#181818;color:#181818;background-color:transparent;}.bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_tabs_header li:hover,.bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_tabs_header li.on,.bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_tabs_header li {background-color:#181818;color:#efefef;border-color:#181818;}.bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_simple .bt_bb_tabs_header li {color:#efefef;}.bt_bb_tabs.bt_bb_color_scheme_12.bt_bb_style_simple .bt_bb_tabs_header li.on {color:#181818;border-color:#181818;}/* Accordion */.bt_bb_accordion.bt_bb_color_scheme_12 .bt_bb_accordion_item {border-color:#181818;}.bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_accordion_item_title {border-color:#181818;color:#181818;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_outline .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#efefef;background-color:#181818;}.bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#efefef;background-color:#181818;}.bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_accordion_item.on .bt_bb_accordion_item_title,.bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_filled .bt_bb_accordion_item .bt_bb_accordion_item_title:hover {color:#181818;background-color:transparent;}.bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title {color:#181818;border-color:#181818;}.bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_simple .bt_bb_accordion_item .bt_bb_accordion_item_title:hover,.bt_bb_accordion.bt_bb_color_scheme_12.bt_bb_style_simple .bt_bb_accordion_item.on .bt_bb_accordion_item_title {color:#efefef;border-color:#efefef;}/* Price List */.bt_bb_price_list.bt_bb_color_scheme_12 {border-color:#efefef;}.bt_bb_price_list.bt_bb_color_scheme_12 .bt_bb_price_list_title {color:#181818;background-color:#efefef;}.bt_bb_price_list.bt_bb_color_scheme_12 ul li {border-color:#efefef;}/* Section */.bt_bb_section.bt_bb_color_scheme_12 {color:#181818;background-color:#efefef;}

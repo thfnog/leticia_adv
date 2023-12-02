@@ -1,0 +1,2 @@
+<?php
+$s->bodyCls = 'home page-template-default page page-id-72 page-child parent-pageid-6 bt_bb_plugin_active woocommerce-js btHeadingStyle_default btHasAltLogo btMenuRightEnabled btStickyEnabled btHideHeadline btLightSkin btBelowMenu noBodyPreloader btSoftRoundedButtons btTransparentLightHeader btNoSidebar btMenuRight btMenuHorizontal btMenuInitFinished vsc-initialized btRemovePreloader';

@@ -1,0 +1,124 @@
+RewriteEngine On
+
+# www
+RewriteCond %{HTTP_HOST} !^localhost
+RewriteCond %{REQUEST_METHOD} ^GET$
+RewriteCond %{HTTPS} off
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+#OPTIMAZATION
+<ifModule mod_expires.c>
+	# Enable expirations
+	ExpiresActive On
+	# Default directive
+	ExpiresDefault A29030400
+	# My favicon
+	ExpiresByType image/x-icon A29030400
+	# Images
+	ExpiresByType image/gif A2419200
+	ExpiresByType image/png A2419200
+	ExpiresByType image/jpg A2419200
+	ExpiresByType image/jpeg A2419200
+	# CSS
+	ExpiresByType text/css A2419200
+	# Javascript
+	ExpiresByType text/javascript A2419200
+	ExpiresByType application/javascript A29030400
+	ExpiresByType text/plain A2419200
+	ExpiresByType text/html A2419200
+</ifModule>
+
+<ifModule mod_headers.c>
+	Header unset ETag
+	# YEAR
+	<FilesMatch "\.(ico|gif|jpg|jpeg|png|flv|pdf)$">
+		Header set Cache-Control "public, max-age=31557600"
+	</FilesMatch>
+	<FilesMatch "\.(js|css|swf)$">
+		Header set Cache-Control "max-age=31557600"
+	</FilesMatch>
+	# 45 MIN
+	<FilesMatch "\.(html|htm|txt)$">
+		Header set Cache-Control "max-age=2700"
+	</FilesMatch>
+</ifModule>
+FileETag None
+
+<IfModule mod_mime.c>
+    AddType application/javascript          js
+    AddType application/vnd.ms-fontobject   eot
+    AddType application/x-font-ttf          ttf ttc
+    AddType font/opentype                   otf
+    AddType application/x-font-woff         woff
+    AddType image/svg+xml                   svg svgz 
+    AddEncoding gzip                        svgz
+</Ifmodule>
+
+<IfModule mod_deflate.c>
+	# compress text, HTML, JavaScript, CSS, and XML
+	AddOutputFilterByType DEFLATE text/plain
+	AddOutputFilterByType DEFLATE text/html
+	AddOutputFilterByType DEFLATE text/xml
+	AddOutputFilterByType DEFLATE text/css
+	AddOutputFilterByType DEFLATE application/xml
+	AddOutputFilterByType DEFLATE application/xhtml+xml
+	AddOutputFilterByType DEFLATE application/rss+xml
+	AddOutputFilterByType DEFLATE application/javascript
+	AddOutputFilterByType DEFLATE application/x-javascript
+	AddType image/svg+xml .svg
+	#AddOutputFilterByType DEFLATE image/svg+xml
+	AddOutputFilterByType DEFLATE image/x-icon image/svg+xml application/vnd.ms-fontobject application/x-font-ttf font/opentype
+</Ifmodule>
+
+<IfModule mod_gzip.c>
+	# remove browser bugs
+	BrowserMatch ^Mozilla/4 gzip-only-text/html
+	BrowserMatch ^Mozilla/4\.0[678] no-gzip
+	BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+	Header append Vary User-Agent
+</Ifmodule>
+#OPTIMAZATION
+
+# Barra no fim
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)/$ /$1 [QSA,R=301,NC,L]
+RewriteRule ^fb-callback$ index.php?pg=fb-callback&%{QUERY_STRING} [NC,L]
+RewriteRule ^retorno-paypal$ index.php?pg=retorno-paypal&%{QUERY_STRING} [NC,L]
+RewriteRule ^fb-callback-debug$ index.php?pg=fb-callback-debug&%{QUERY_STRING} [NC,L]
+
+# AJAX
+RewriteRule ^ajax/([\w\-]+)$ ajax.php?cat=$1 [QSA,NC,L]
+RewriteRule ^ajax/([\w\-]+)(.(\d+))?.([\w\-]{1,6})$ ajax.php?act=$1&id=$3&cat=$4 [QSA,NC,L]
+RewriteRule ^ajax/([\w\-]+)/([\w\-]+)(.(\d+))?.([\w\-]{1,6})$ ajax.php?act=$1&pg=$2&id=$4&cat=$5 [QSA,NC,L]
+RewriteRule ^ajax/([\w\-]+)/([\w\-]+)/([\w\-]+)(.(\d+))?.([\w\-]{1,6})$ ajax.php?act=$1&pg=$2&spg=$3&id=$5&cat=$6 [QSA,NC,L]
+
+#QSA
+RewriteRule ^(home|quem-somos|servicos|blog|contato|login|logout|esqueci|fb-callback|fb-callback-debug|obrigado|admin)$ index.php?pg=$1 [QSA,NC,L] index.php?pg=$1 [QSA,NC,L]
+RewriteRule ^(blog|porfolio)/(\d+)$ index.php?pg=$1&pgn=$2 [QSA,NC,L]
+#RewriteRule ^(blog|porfolio)(?:/(\d*[a-z_\-][\w\-]*))?(?:/(\d*[a-z_\-][\w\-]*))?(?:/(\d+))?$ index.php?pg=$1&spg=$2&cat=$3&pgn=$4 [QSA,NC,L]
+
+#interno
+RewriteRule ^([\w-]+)$ index.php?pg=view&slug=$1 [NC,L]
+
+#DOWNLOAD
+RewriteRule ^(login)/([\w-]+)$ index.php?pg=$1&referer=$2 [QSA,NC,L]
+
+RewriteRule ^(admin|administrador)/(login)/([\w-]+)$ index.php?pg=$1&spg=$2&referer=$3 [QSA,NC,L]
+RewriteRule ^(admin|administrador)/([\w\-]+)(?:/(\d+))?$ index.php?pg=$1&spg=$2&id=$3 [NC,L]
+RewriteRule ^(admin|administrador)/([\w\-]+)/([\w\-]+)(?:/(\d+))?$ index.php?pg=$1&spg=$2&cat=$3&id=$4 [NC,L]
+
+RewriteRule ^(en|es)(?:/([\w\-]+))?$ index.php?pg=$2&lang=$1 [NC,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([\w\-]+)$ index.php?pg=$1 [NC,L]
+
+ErrorDocument 404 /404
+
+##### LOCAWEB - NAO REMOVER #####
+AddHandler php7-script .php
+suPHP_ConfigPath /home/leticiacolitti1/
+##### LOCAWEB - NAO REMOVER #####
